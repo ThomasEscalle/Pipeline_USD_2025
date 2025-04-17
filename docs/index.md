@@ -1,8 +1,8 @@
-# Documentation Pipeline USD 2025 - Uptight
+# Accueil 
 
 ## Qu'est ce que le projet Pipeline USD 2025 ?
 
-Le but de ce projet est de créer un pipeline de production pour les films de 4eme année de l'ESMA Montpellier. Ce pipeline sera basé sur le format USD (Universal Scene Description). Il utilisera principalement Houdini et Maya.
+Le but de ce projet est de créer un pipeline de production pour les films de 4eme année de l'ESMA Montpellier 2026. Ce pipeline sera basé sur le format USD (Universal Scene Description). Il utilisera principalement Houdini et Maya.
 
 ## Qu'est ce que le format USD ?
 
@@ -14,7 +14,7 @@ L'USD est en train de s'imposer comme un standard dans l'industrie de l'animatio
 
 ## Pourquoi le format USD ?
 
-Le principal avantage d’un pipeline USD réside dans son systeme de composition arcs (références de références ...).. Ce système permet d’emboîter plusieurs fichiers USD, chacun jouant un rôle précis dans la description de l’asset ou de la scène. Cela apporte de la propreté, et une flexibilité énorme.
+Le principal avantage de l'USD réside dans son systeme de composition arcs (références de références ...).. Ce système permet d’emboîter plusieurs fichiers USD, chacun jouant un rôle précis dans la description de l’asset ou de la scène. Cela apporte de la propreté, et une flexibilité énorme.
 Par exemple, il devient possible de séparer proprement la géométrie, le lookdev (matériaux, shaders), la déclaration de l’asset dans une scène ...
 <br>
 <br>

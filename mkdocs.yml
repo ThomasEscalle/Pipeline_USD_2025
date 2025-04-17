@@ -1,5 +1,12 @@
 site_name: Documentation Pipeline USD 2025
 site_url: https://thomasescalle.github.io/Pipeline_USD_2025/#project-layout
+nav:
+  - Accueil: index.md
+  - Structure: structure.md
+  - Départements:
+      - Modeling Low: domaine_01_ModeLow.md
+      - Modeling High: domaine_01_ModeHigh.md
+  - References: references.md
 theme:
   name: material
   features:
@@ -15,8 +22,8 @@ theme:
   language: fr
   palette:
     - scheme: slate
-      primary: teal
-      accent: purple 
+      primary: indigo
+      accent: indigo 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
