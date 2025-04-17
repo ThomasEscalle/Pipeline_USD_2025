@@ -6,6 +6,7 @@ nav:
   - Départements:
       - Modeling Low: domaine_01_ModeLow.md
       - Modeling High: domaine_01_ModeHigh.md
+  - Nomenclature: nomenclature.md
   - References: references.md
 theme:
   name: material

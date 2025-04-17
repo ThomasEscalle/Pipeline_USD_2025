@@ -23,4 +23,8 @@ Cela permet une modularité extrême : si, au moment du rendu, on souhaite modif
 <br>
 Un autre avantage majeur : la gestion des niveaux de détail grâce aux systèmes de proxy. Le pipeline que je conçois repose justement sur ce principe : permettre l’affichage de géométries légères (proxies) dans le viewport, tout en gardant les versions high-res disponibles pour les étapes comme le rendu. Cela permet d’optimiser les performances des artistes, notamment en animation, où les géométries high-poly ne sont pas nécessaires.
 
+## Miro Board
 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVIGE7tZo=/?moveToViewport=-4399,-2989,25838,9710&embedId=330836658338" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+
+[Lien Miro](https://miro.com/app/board/uXjVIGE7tZo=/)
