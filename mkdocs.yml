@@ -1,5 +1,5 @@
 site_name: Documentation Pipeline USD 2025
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_url: https://thomasescalle.github.io/Pipeline_USD_2025/#project-layout
 theme:
   name: material
   features:
