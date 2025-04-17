@@ -9,6 +9,8 @@ Le but de ce projet est de créer un pipeline de production pour les films de 4e
 Le format **USD** (Universal Scene Description) est un format de fichier développé par Pixar pour représenter des scènes 3D. Il a été pensé pour etre le plus flexible et performant possible. L'avantage d'un tel format "universel" est qu'il peut etre utilisé par plusieurs logiciels de 3D, notament Houdini et Maya, et qu'il ne se base pas sur un logiciel en particulier.
 <br>
 Le format permet de stocker des informations sur la géométrie, les matériaux, les lumières, les caméras ...
+<br><br>
+L'USD est en train de s'imposer comme un standard dans l'industrie de l'animation et des effets visuels. De plus en plus de studios adoptent ce format pour leurs pipelines de production, car il permet une meilleure collaboration entre les différents départements (modélisation, animation, rendu, etc.). C'est pourquoi je pense qu'il peut etre un gros attout pour la création de nos films, ainsi qu'une corde de plus ajouter a notre arc.
 
 ## Pourquoi le format USD ?
 
