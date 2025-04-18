@@ -1,41 +1,39 @@
 # Structure
 
-## Structure du projet
-
-La structure du projet est organisée de manière à faciliter la gestion des fichiers et des versions. Chaque dossier correspond à une étape spécifique du pipeline de production. Voici un aperçu de la structure du projet :
-
-### Version simplifiée :
+!!! note ""
+    La structure du projet est organisée de manière à faciliter la gestion des fichiers et des versions. Chaque dossier correspond à une étape spécifique du pipeline de production. Voici un aperçu de la structure du projet :
 
 ```tree
-
 <nom du projet>
-├── 00_Pipeline/
-├── 01_Management/
-├── 02_PreProd/
-├── 03_Production/
-├── 04_Editing/
-├── 05_USD/
-├── 06_Archives/
-├── 07_Resources/
-├── 08_Linetest/
-├── 09_Dev/
-└── 10_Comunication/
-
+├── 📁 00_Pipeline/
+├── 📁 01_Management/
+├── 📁 02_PreProd/
+├── 📁 03_Production/
+├── 📁 04_Editing/
+├── 📁 05_USD/
+├── 📁 06_Archives/
+├── 📁 07_Resources/
+├── 📁 08_Linetest/
+├── 📁 09_Dev/
+└── 📁 10_Comunication/
 ```
 
-## Description des dossiers
+### Détails des dossiers
 
-### 00_Pipeline
 
-Ce dossier est utilisé pour stocker les fichiers de **configuration du pipeline**. Il n'y a pas a toucher a quoi que ce soit dans ce dossier. Il est géré automatiquement par le gestionnaire de pipeline (Prism dans notre cas).
-
-### 01_Management
-
-Ce dossier sert a tout ce qui est **gestion de projet**. Il contient les racourcis vers les documents de gestion de production.
-
-### 02_PreProd
-
-Ce dossier est utilisé pour stocker les fichiers de **pré-production**. Il contient les concepts arts, les storyboards, les animatics, les références, les moodboards, etc. Il est divisé en plusieurs sous-dossiers ayant chacun une fonction précise.
+| Nom du dossier      | Description                          |
+| ----------- | ------------------------------------ |
+| [00_Pipeline](/Pipeline_USD_2025/00_Pipeline)          | Contient les outils et scripts utilisés pour le pipeline.  |                                                                             
+| [01_Management](/Pipeline_USD_2025/01_Management)      | Dossier de gestion du projet, incluant les documents de planification et de suivi.|
+| [02_PreProd](/Pipeline_USD_2025/02_PreProd)            | Dossier de pré-production, contenant les concepts, storyboards et autres documents préparatoires.|
+| [03_Production](/Pipeline_USD_2025/03_Production)      | Dossier de production, où se trouvent les fichiers de travail des artistes.|
+| [04_Editing](/Pipeline_USD_2025/04_Editing)            | Dossier d'édition, contenant les fichiers de montage et de post-production.|
+| [05_USD](/Pipeline_USD_2025/05_USD)                    | Dossier contenant les publishs des fichiers USD et les ressources associées.|
+| [06_Archives](/Pipeline_USD_2025/06_Archives)          | Dossier d'archives, où sont stockés les fichiers et versions obsolètes des USD.|
+| [07_Resources](/Pipeline_USD_2025/07_Resources)        | Dossier contenant les ressources externes, comme les références et les documents de recherche.|
+| [08_Linetest](/Pipeline_USD_2025/08_Linetest)          | Dossier contenant les fichiers servant a la presentation du projet, comme les jury et les reviews.|
+| [09_Dev](/Pipeline_USD_2025/09_Dev)                    | Dossier de développement, où se trouvent les scripts et outils en cours de développement.|
+| [10_Comunication](/Pipeline_USD_2025/10_Comunication)  | Dossier de communication, contenant les fichiers de communication externe, comme les réseaux sociaux et les festivals.|
 
 
 ## Version détaillée
