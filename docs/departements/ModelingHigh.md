@@ -61,7 +61,32 @@ Dans maya, il devrait y avoir une hierarchie déja présente, avec les assets im
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
-1. Todo
+1. Une fois votre modélisation terminée, assurez-vous tout est propre, sans problèmes dans la géometrie (faire un `Mesh Cleanup` si besoin).<br>
+
+2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_modh_low`.<br>
+![image](../assets/screen_modeling_low/03.png){width=500px}
+
+3. Selectionnez le groupe `[département]_[nom]_modh_low` dans l'outliner.
+
+4. Ouvrez la fenêtre du pipeline de production et cliquez sur le bouton `Publish`.<br>
+![image](../assets/screen_modeling_low/04.png){width=500px}
+
+5. Une premiere boite de dialogue s'ouvre pour vous demander sous quel variant exporter l'asset. <br>
+Si vous laisser "default", l'asset seras exporté sous le nom "`ModH_Publish`". Si vous mettez un numéro, l'asset sera exporté sous le nom "`ModH_Publish_var[numéro]`".
+Cela servira plus tard pour créer les differentes variations de l'asset. <br>
+Voir [qu'est ce qu'un variant en USD](https://thomasescalle.github.io/Pipeline_USD_2025/qanda/#quest-ce-quun-variant-en-usd)<br>
+Une fois terminé, cliquez sur `OK`, ou `Annuler` si vous souhaitez annuler l'export.<br>
+![image](../assets/screen_modeling_low/07.png){width=500px}
+
+6. Une seconde fenêtre s'ouvre, verifiez bien que le champ `Output Type` est bien sur `usd`, et que le champ `object` est bien sur le groupe a publier.<br>
+
+7. Cliquez sur le bouton `Add Selected` <br>
+
+8. Cliquez sur le bouton `Export` pour publier votre fichier.<br>
+![image](../assets/screen_modeling_low/05.png){width=500px}
+8. Vous devriez voir un message de succès qui s'affiche. Le modeling est maintenant publié et automatiquement appliqué a l'asset USD.
+
+
 
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment créer une scène dans Houdini

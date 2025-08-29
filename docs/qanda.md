@@ -64,19 +64,19 @@ Toutes ces notions sont regroupées sous le terme générique d'assets.
 
 **Résumé :**
 
-| Notion      | Char (Character) | Item | Module | Prop |
-|-------------|:---------------:|:----:|:------:|:----:|
-| Modélisé    |     <font color="green">:material-check-bold:</font>         | <font color="green">:material-check-bold:</font>  |        | <font color="green">:material-check-bold:</font>  |
-| Surfacing   |     <font color="green">:material-check-bold:</font>         | <font color="green">:material-check-bold:</font>  |        | <font color="green">:material-check-bold:</font>  |
-| Riggué      |     <font color="green">:material-check-bold:</font>         |      |        | <font color="green">:material-check-bold:</font>  |
-| Animable    |     <font color="green">:material-check-bold:</font>         |      |        | <font color="green">:material-check-bold:</font>  |
-| Groupe d'objets |             |      |  <font color="green">:material-check-bold:</font>   |      |
-| Exemple     | <font color="teal">Personnage</font>      | <font color="teal">Chaise, livre</font> | <font color="teal">Bureau (ensemble)</font> | <font color="teal">Voiture, arme</font> |
-
+| Notion           | Char (Character)                  | Item                        | Module                      | Prop                        |
+|------------------|:---------------------------------:|:---------------------------:|:---------------------------:|:---------------------------:|
+| Modélisé         | <font color="green">:material-check-bold:</font> | <font color="green">:material-check-bold:</font> |                             | <font color="green">:material-check-bold:</font> |
+| Surfacing        | <font color="green">:material-check-bold:</font> | <font color="green">:material-check-bold:</font> |                             | <font color="green">:material-check-bold:</font> |
+| Riggué           | <font color="green">:material-check-bold:</font> |                             |                             | <font color="green">:material-check-bold:</font> |
+| Animable         | <font color="green">:material-check-bold:</font> |                             |                             | <font color="green">:material-check-bold:</font> |
+| Groupe d'objets  |                                   |                             | <font color="green">:material-check-bold:</font> |                             |
+| Exemple          | <font color="teal">Personnage</font> | <font color="teal">Chaise, livre</font> | <font color="teal">Bureau (ensemble)</font> | <font color="teal">Voiture, arme</font> |
 
 ----
 
 ## :material-bug-outline: Comment reporter un bug technique ?
 
 Il vous suffit de créer un ticket sur github, dans la section [Issues](https://github.com/ThomasEscalle/Pipeline_USD_2025-2026_src/issues). De cette façon, nous pourrons suivre et résoudre le problème plus efficacement.<br>
+Faites bien attention à préciser les étapes pour reproduire le bug, ainsi que l'environnement dans lequel il se produit. Cela m'aidera à comprendre et à résoudre le problème plus rapidement.
 Voir [comment créer une issue Github](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) pour plus de détails.
