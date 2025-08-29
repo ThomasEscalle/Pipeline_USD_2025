@@ -1,12 +1,12 @@
 # Departements
 
-## Travail a l'asset
+## Travail à l'asset
 
 
 <div class="grid cards" markdown>
 
 -   [:material-cube:{ .lg .middle } **Modeling Low** ( ``modl`` )](./ModelingLow)
--   [:material-cube-outline:{ .lg .middle } **Modeling High** ( ``modh`` )](#modeling-high-modh)
+-   [:material-cube-outline:{ .lg .middle } **Modeling High** ( ``modh`` )](./ModelingHigh)
 -   [:material-skull:{ .lg .middle } **Rigging Low** ( ``rigl`` )](#rigging-low-rigl)
 -   [:material-skull-outline:{ .lg .middle } **Rigging High** ( ``righ`` )](#rigging-high-righ)
 -   [:material-table:{ .lg .middle } **Modules** ( ``modu`` )](#modules-modu)
@@ -14,7 +14,7 @@
 
 </div>
 
-## Travail a la séquence
+## Travail à la séquence
 
 <div class="grid cards" markdown>
 
