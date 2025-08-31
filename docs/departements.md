@@ -1,4 +1,9 @@
-# Départements
+---
+icon: material/list-box-outline
+---
+
+
+# :material-list-box-outline: Départements
 
 ## Travail à l'asset
 

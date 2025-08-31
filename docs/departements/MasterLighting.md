@@ -24,13 +24,14 @@ Les lumières créées doivent donc etre réutilisables dans tous les shots.
 
 ## :material-import: Qu'est ce qui rentre ?
 
-Todo
+Le Master Light se fais directement sur le SetDress de la séquence. Il n'y a pas besoin de personnages, ni de caméras spécifiques.
 
 ------
 
 ## :material-export: Qu'est ce qui sort ?
 
-Todo
+Le département Master Lighting génère un fichier `.usd` qui contient les lumières et les réglages d'éclairage pour la séquence. Il ne dois pas référencer le SetDress car celui-ci seras réimporté dans le département `Assembly`.
+Ce fichier est ensuite utilisé comme base pour le département `Lighting`, où des ajustements spécifiques peuvent être apportés pour chaque shot individuel.
 
 ------
 

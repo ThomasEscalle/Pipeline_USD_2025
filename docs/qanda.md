@@ -137,6 +137,18 @@ Pour faire simple, j'ai préféré de ne pas toucher aux unités natives des log
 
 ----
 
+## :material-ghost-outline: Qu'est ce qu'un ghost ?
+
+Dans le pipeline, on considère qu'un **ghost** est une **animation de référence** que l'on importe dans la scène. On importe le cache d'une étape précédente (RLO ou FLO) pour s'en servir de guide dans l'étape actuelle.
+
+Par exemple, dans le département d'animation, on importe les ghosts animés du FLO pour aider les animateurs à caler leurs animations. 
+
+Cela sert car par exemple, les rigs entre le RLO et le FLO sont différents et on peu repartir sur une base propre a chaque nouveau département.
+
+On vas appliquer un shader spécial aux ghosts pour les différencier visuellement dans le viewport.
+
+----
+
 ## :material-bug-outline: Comment reporter un bug technique ?
 
 Il vous suffit de créer un ticket sur github, dans la section [Issues](https://github.com/ThomasEscalle/Pipeline_USD_2025-2026_src/issues). De cette façon, nous pourrons suivre et résoudre le problème plus efficacement.<br>

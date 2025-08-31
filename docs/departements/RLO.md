@@ -32,13 +32,24 @@ Il n'est pas nécessaire de faire une animation poussée, mais il faut que les p
 
 ## :material-import: Qu'est ce qui rentre ?
 
-Todo
+Le `RLO` reçoit :
+
+- Le `setdress` de la séquence
+- Les `personnages` (rig low)
+- Les `props` nécessaires
+
+Evidement, il faut aussi avoir la `storyboard` et le `script` de la séquence pour pouvoir positionner les éléments correctement.
 
 ------
 
 ## :material-export: Qu'est ce qui sort ?
 
-Todo
+Il y'a plusieurs publishs a effectuer dans le RLO :
+
+- Les `éléments animées` (personnages, props animés) bakées, sous forme de cache USD.
+- Les `caméras` exportées en .ma (pour conserver les curves et ne pas perdre les animations)
+- Les `edits du setdress`, sous forme d'un format USD (si besoin est de modifier le setdress de la séquence).
+- Un `playblast` de chaque plan, pour validation et integration dans le montage.
 
 ------
 

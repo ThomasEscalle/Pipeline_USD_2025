@@ -25,13 +25,15 @@ Les lights peuvent etre animées, pour simuler des effets de lumières dynamique
 
 ## :material-import: Qu'est ce qui rentre ?
 
-Todo
+Au moment de la création de la scène, deux elements principaux sont importés :
+- La scène d'`Assembly`, qui inclut tous les éléments nécessaires pour le shot, tels que les personnages, les décors, les accessoires, et les effets visuels.
+- Le fichier de `Master Lighting`, qui contient les lumières et les réglages d'éclairage globaux pour la séquence.
 
 ------
 
 ## :material-export: Qu'est ce qui sort ?
 
-Todo
+On exporte un fichier `.usd` qui inclut la référence de la scène d'assembly, ainsi que les lumières et les réglages d'éclairage spécifiques au shot. Ce fichier est ensuite utilisé pour le rendu final de la scène dans le TLO.
 
 ------
 

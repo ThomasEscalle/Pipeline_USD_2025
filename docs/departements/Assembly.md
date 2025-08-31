@@ -32,13 +32,21 @@ La plupart de ces imports devrais se faire automatiquement au moment de la créa
 
 ## :material-import: Qu'est ce qui rentre ?
 
-Todo
+Les elements suivant sont importées au moment de la création de la scène d'assembly :
+
+- Le `set dress` de la séquence
+- Les `edits du set dress` , provenant du RLO, FLO et animation
+- La `caméra` finale du shot provenant de l'animation
+- Les `assets USD` texturées des personnages et des props
+- Les `animations` des personnages et des props sous forme de cache USD
+- Les `FXs` (si il y en a)
+- Les `CFXs` (si il y en a)
 
 ------
 
 ## :material-export: Qu'est ce qui sort ?
 
-Todo
+L'assembly sors un fichier `.usd` qui référence tous les éléments importés et les organise dans une structure hiérarchique claire. Ce fichier est ensuite utilisé comme base pour le département `Lighting`, où l'éclairage et les effets visuels sont ajoutés pour finaliser l'apparence du shot.
 
 ------
 

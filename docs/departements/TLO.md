@@ -17,13 +17,13 @@ TLO (pour Technical Layout) est la phase de mise en place technique finale, au s
 
 ## :material-import: Qu'est ce qui rentre ?
 
-Todo
+Le TLO reçoit un fichier usd qui proviens du `lighting` et qui contient tous les elements devant etre rendus dans le shot.
 
 ------
 
 ## :material-export: Qu'est ce qui sort ?
 
-Todo
+Le TLO sort un fichier `.usd` par renderlayer, avec les AOVs et les render settings. C'est ce fichier qui est envoyé au moteur de rendu ou au dispatch.
 
 ------
 

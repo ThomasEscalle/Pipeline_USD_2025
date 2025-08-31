@@ -22,13 +22,24 @@ Les assets animées importées du RLO ne sont pas riggées, ils sont présents s
 
 ## :material-import: Qu'est ce qui rentre ?
 
-Todo
+Ce qui rentre dans le FLO : 
+
+- Les `caméras` exportées du RLO
+- Le `setdress` de la séquence
+- Les `edits du setdress` effectuées dans le RLO
+- Les `chars` et `props` en Rig High
+- Les ghosts des `éléments animées` (personnages, props animés) exportées du RLO
 
 ------
 
 ## :material-export: Qu'est ce qui sort ?
 
-Todo
+Ce qui sort du FLO :
+
+- Les `éléments animées` (personnages, props animés) bakées, sous forme de cache USD.
+- Les `caméras` exportées en .ma (pour conserver les curves et ne pas perdre les animations)
+- Les `edits du setdress`, sous forme d'un format USD (si besoin est de modifier le setdress de la séquence).
+- Un `playblast` de chaque plan, pour validation et integration dans le montage.
 
 ------
 

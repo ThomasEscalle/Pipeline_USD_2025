@@ -1,4 +1,9 @@
-# Accueil 
+---
+icon: material/home-outline 
+---
+
+
+# :material-home-outline: Accueil 
 
 ## Qu'est ce que le projet Pipeline USD 2025 ?
 

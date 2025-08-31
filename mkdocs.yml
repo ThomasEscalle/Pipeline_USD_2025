@@ -30,7 +30,7 @@ nav:
     - Maya "Save As" Script: outils/maya_saveas_script.md
     - Installer: outils/installer.md
   - Q & A: qanda.md
-  - References: references.md
+  - Références: references.md
 theme:
   name: material
   features:
