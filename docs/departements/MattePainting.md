@@ -1,3 +1,7 @@
+---
+icon: material/cube
+---
+
 
 # :material-cube: Matte Painting
 

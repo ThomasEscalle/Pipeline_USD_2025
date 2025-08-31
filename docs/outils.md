@@ -1,3 +1,7 @@
+---
+icon: material/tools
+---
+
 # Outils
 
 Voici la liste des outils développés à disposition :

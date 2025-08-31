@@ -1,3 +1,7 @@
+---
+icon: material/folder-outline
+---
+
 # Structure
 
 !!! note ""

@@ -4,8 +4,8 @@ site_url: https://thomasescalle.github.io/Pipeline_USD_2025/#project-layout
 nav:
   - Accueil: index.md
   - Démarrage: demarage.md
-  - Departements:
-    - General: departements.md
+  - Départements:
+    - Départements: departements.md
     - Modeling Low: departements/ModelingLow.md
     - Modeling High: departements/ModelingHigh.md
     - Rigging Low: departements/RiggingLow.md
@@ -13,8 +13,8 @@ nav:
     - Surfacing: departements/Surfacing.md
     - Modules: departements/Modules.md
     - SetDress: departements/SetDress.md
-    - RLO : departements/RLO.md
     - Master Lighting: departements/MasterLighting.md
+    - RLO : departements/RLO.md
     - FLO: departements/FLO.md
     - Animation: departements/Anim.md
     - Assembly: departements/Assembly.md
@@ -23,17 +23,18 @@ nav:
     - Compositing: departements/Compositing.md
     - Matte Painting: departements/MattePainting.md
   - Structure: structure.md
-  - Q & A: qanda.md
   - Outils:
     - Outils: outils.md
     - Prism Pluggin Principal: outils/prism_main_pluggin.md
     - Maya "Shelf": outils/maya_shelf.md
     - Maya "Save As" Script: outils/maya_saveas_script.md
     - Installer: outils/installer.md
+  - Q & A: qanda.md
   - References: references.md
 theme:
   name: material
   features:
+    - navigation.footer
     - navigation.tabs
     - toc.integrate
     - navigation.indexes
@@ -70,8 +71,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid

@@ -1,3 +1,6 @@
+---
+icon: material/cube
+---
 
 # :material-cube: Modeling Low
 
@@ -5,6 +8,8 @@
 ![Houdini_icon](../assets/icons/houdini.png){width=40px}
 <br>
 ==Travail à l'asset==
+
+-----
 
 ## :material-information-slab-box-outline: Description
 
@@ -15,18 +20,20 @@ Ces modèles seront utilisés pour :
 - La visualisation proxy dans le viewport.
 - Servir de base pour la modélisation High.
 - Servir de base pour le rigging Low, qui sera ensuite utilisé pour le Rough Layout.
+    
+-----
 
-<br>
----
 ## :material-import: Qu'est ce qui rentre ?
 
 Il n'y a aucun département qui rentre dans le `Modeling Low`. Il s'agit du premier niveau du pipeline de production.
+
+-----
 
 ## :material-export: Qu'est ce qui sort ?
 
 Le `Modeling Low` sort un fichier de type `.usd`. Il ne doit pas y avoir d'animation, ou de shading dans ce fichier.
 
-<br>
+-----
 
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment créer une scène dans Maya
@@ -50,6 +57,7 @@ Le `Modeling Low` sort un fichier de type `.usd`. Il ne doit pas y avoir d'anima
 Cela devrait vous créer un fichier en `.ma`. Double cliquez dessus pour l'ouvrir dans Maya.<br>
 Dans maya, il devrait y avoir une hierarchie déja présente.
 
+-----
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
@@ -78,7 +86,7 @@ Une fois terminé, cliquez sur `OK`, ou `Annuler` si vous souhaitez annuler l'ex
 ![image](../assets/screen_modeling_low/05.png){width=500px}
 8. Vous devriez voir un message de succès qui s'affiche. Le modeling est maintenant publié et automatiquement appliqué a l'asset USD.
 
-
+-----
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment créer une scène dans Houdini
 
@@ -104,6 +112,7 @@ Dans Houdini, il devrait y avoir une hierarchie déja présente. Chaque node "ge
 
 ![image](../assets/screen_modeling_low/09.png){width=500px}
 
+-----
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Ou construire la géo dans Houdini ?
 
@@ -116,6 +125,7 @@ Dans Houdini, il devrait y avoir une hierarchie déja présente. Chaque node "ge
 3. Vous pouvez maintenant construire la géométrie de votre asset à l'intérieur de ce node, à votre guise.<br>
 ![image](../assets/screen_modeling_low/11.png){width=500px}
 
+-----
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment publier une scène dans Houdini ?
 

@@ -1,9 +1,15 @@
+---
+icon: material/cube-outline
+---
+
 # :material-cube-outline: Modeling High
 
 ![Maya_icon](../assets/icons/maya.png){width=40px}
 ![Houdini_icon](../assets/icons/houdini.png){width=40px}
 <br>
 ==Travail à l'asset==
+
+-----
 
 ## :material-information-slab-box-outline: Description
 
@@ -16,18 +22,19 @@ Ces modèles serviront à :
 - Servir de référence pour le texturing et le shading.
 - Être utilisés dans le rigging final et l’animation.
 
-<br>
+-----
 
 ## :material-import: Qu'est ce qui rentre ?
 
 Le Modeling High reçoit en entrée le fichier `.usd` produit par le Modeling Low.
 
+-----
+
 ## :material-export: Qu'est ce qui sort ?
 
 Le Modeling High sort un fichier de type `.usd`. Il doit contenir la géométrie finale, sans animation ni shading. Dans certains cas, des attributs supplémentaires peuvent être inclus, au besoin de l'asset.
 
-<br>
-
+-----
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment créer une scène dans Maya
 
@@ -59,6 +66,8 @@ Lisez la [documentation](https://thomasescalle.github.io/Pipeline_USD_2025/outil
 Cela devrait vous créer un fichier en `.ma`. Double cliquez dessus pour l'ouvrir dans Maya.<br>
 Dans maya, il devrait y avoir une hierarchie déja présente, avec les assets importés correctement.
 
+-----
+
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
 1. Une fois votre modélisation terminée, assurez-vous tout est propre, sans problèmes dans la géometrie (faire un `Mesh Cleanup` si besoin).<br>
@@ -84,16 +93,18 @@ Une fois terminé, cliquez sur `OK`, ou `Annuler` si vous souhaitez annuler l'ex
 
 8. Cliquez sur le bouton `Export` pour publier votre fichier.<br>
 ![image](../assets/screen_modeling_low/05.png){width=500px}
-8. Vous devriez voir un message de succès qui s'affiche. Le modeling est maintenant publié et automatiquement appliqué a l'asset USD.
+8. Vous devriez voir un message de **succès** qui s'affiche. Le modeling est maintenant publié et automatiquement appliqué a l'asset USD.
 
-
-
+-----
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment créer une scène dans Houdini
 
 1. Todo
 
+-----
+
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment publier une scène dans Houdini
 
 1. Todo
 
+-----

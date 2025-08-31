@@ -1,4 +1,8 @@
-# Démarrage
+---
+icon: material/rocket-launch-outline
+---
+
+# :material-rocket-launch-outline: Démarrage
 
 
 ## :material-download-box-outline: Comment installer le pipeline sur mon ordinateur ?

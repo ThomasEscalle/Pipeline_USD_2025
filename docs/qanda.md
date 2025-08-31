@@ -1,4 +1,9 @@
-# Questions et Réponses
+---
+icon: material/calendar-question
+---
+
+
+# :material-calendar-question: Questions et Réponses
 
 ## :material-diamond-stone: Qu'est-ce que Prism ?
 
@@ -20,6 +25,40 @@ La plupart des fonctionnalités que nous exploitons proviennent en réalité d�
 ----
 
 ## :material-hexagon-multiple-outline: Qu'est ce qu'un variant en USD ?
+
+Un **variant** en USD est un mécanisme permettant de stocker plusieurs versions ou options d’un même élément dans un seul fichier. Cela permet, par exemple, de définir différentes variantes de couleur, de niveau de détail (LOD), ou de configuration pour un asset sans dupliquer toute la géométrie.
+
+Chaque variant est regroupé dans un *variant set* (ensemble de variantes). On peut ensuite choisir dynamiquement quelle variante utiliser lors de l’assemblage de la scène.
+
+Cela facilite la gestion des alternatives et rend le pipeline plus flexible, tout en évitant la multiplication des fichiers.
+
+Dans notre pipeline, pour simplifier les choses, nous n'utilisons qu'un seul variant set par asset, simplement nommé `variant`. Un variant peut faire changer le `Modeling Low`, le `Modeling High`, ou le `Surfacing`. Il est de votre choix de décider ce que chaque variant modifie. 
+
+Vous pouvez par exemple créer plusieurs models high, avec des densités differentes pour simuler un systeme de LOD.
+Ou avoir plusieurs surfacings pour un même model pour faire des variations de couleur.
+
+Ou meme mixer les deux : 
+```
+variant 0 = model A - LOD 0 + surfacing A
+variant 1 = model A - LOD 1 + surfacing A
+variant 2 = model A - LOD 2 + surfacing A 
+variant 3 = model B - LOD 0 + surfacing B
+variant 4 = model B - LOD 1 + surfacing B
+variant 5 = model B - LOD 2 + surfacing B
+```
+Il suffiras en suite de créer un script sur houdini pour fair varier ces variants.
+
+----
+
+## :material-train-car-passenger-variant: Qu'est ce qu'un asset ?
+
+Un **asset** est un élément de contenu 3D autonome utilisé dans la production. Cela peut être un personnage, un objet, un décor, un accessoire, etc. Chaque asset est conçu pour être réutilisable et modulaire, afin de faciliter l’assemblage des scènes.
+
+Les assets suivent une structure précise : ils possèdent un dossier dédié, des versions, des produits exportés, et peuvent contenir des variantes (variants).
+
+En résumé, un asset est toute entité 3D indépendante qui peut être créée, modifiée, versionnée et utilisée dans différentes scènes ou plans.
+
+Dans notre pipeline, chaque asset contient un fichier `asset.usd` qui référence les différents éléments de l'asset (modeling, surfacing, rig, etc) et leurs variants.
 
 ----
 
@@ -72,6 +111,29 @@ Toutes ces notions sont regroupées sous le terme générique d'assets.
 | Animable         | <font color="green">:material-check-bold:</font> |                             |                             | <font color="green">:material-check-bold:</font> |
 | Groupe d'objets  |                                   |                             | <font color="green">:material-check-bold:</font> |                             |
 | Exemple          | <font color="teal">Personnage</font> | <font color="teal">Chaise, livre</font> | <font color="teal">Bureau (ensemble)</font> | <font color="teal">Voiture, arme</font> |
+
+----
+
+## :material-image-size-select-small: Comment sont gérées les problèmes de d'échelles entre les différents logiciels (centimètres, mètres) ? 
+
+Le probleme d'echelle est essentiel pour un pipeline multi logiciel, principalement entre houdini et maya.
+
+Pour faire simple, j'ai préféré de ne pas toucher aux unités natives des logiciels, mais de gérer les conversions a l'import et a l'export, en fonction du département.
+
+### Maya utilise et exporte des fichiers en **cm**:
+
+- Les fichiers usd de modélisation sont en cm.
+- Les exports d'animation, de rig, de RLO et de FLO se font en cm.
+
+
+### Houdini utilise et exporte des fichiers en **m**:
+
+- En modélisation, il utilise le m, mais export en cm (transform juste avant l'export)
+- A chaque fois que l'on importe un modeling, il ya un transform qui convertis de cm a m.
+- A chaque fois que l'on importe un fichier animé qui proviens de maya, il y a un transform qui convertis de cm a m.
+- A chaque fois que l'on utilise un asset usd, il reste tel quel.
+
+### Les assets USD sont en m, et contiennent une conversion de cm a m a l'interieur.
 
 ----
 
