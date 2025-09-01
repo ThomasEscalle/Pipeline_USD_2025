@@ -79,6 +79,8 @@ C’est la dernière version approuvée et publiée.
 Ce concept est essentiel, car les fichiers .usd se réfèrent directement aux master products.
 De cette manière, le lien reste toujours identique, tout en permettant un système de versioning efficace.
 
+Pour créer cela, prism vas regarder la derniere version d'un product, et la copier dans le dossier `master`. Il vas aussi renomer le fichier pour enlever le numéro de version, de manière a ce que tous les futurs master products, peu importe la version dont ils proviennent, aient le même nom.
+
 ----
 
 ## :material-vector-difference: Quelle est la difference entre un **export** et un **publish** ?

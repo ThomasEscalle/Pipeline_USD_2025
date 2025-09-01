@@ -31,16 +31,18 @@ Cela permet une modularité extrême : si, au moment du rendu, on souhaite modif
 <br>
 Un autre avantage majeur : la gestion des niveaux de détail grâce aux systèmes de proxy. Le pipeline que je conçois repose justement sur ce principe : permettre l’affichage de géométries légères (proxies) dans le viewport, tout en gardant les versions high-res disponibles pour les étapes comme le rendu. Cela permet d’optimiser les performances des artistes, notamment en animation, où les géométries high-poly ne sont pas nécessaires.
 
-## Miro Board
 
-Voici le miro board que j'ai crée pour le projet. Il sert a les differentes étapes du pipeline.
+## Comment est structuré ce document ?
 
-<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVIGE7tZo=/?moveToViewport=-4399,-2989,25838,9710&embedId=330836658338" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
+Ce document est structuré en plusieurs sections pour faciliter la compréhension du pipeline USD que je développe.
 
-[Lien Miro](https://miro.com/app/board/uXjVIGE7tZo=/)
+1. **[Démarage](./demarage)** : Cette section explique les étapes initiales pour commencer à utiliser le pipeline USD, y compris l'installation des logiciels nécessaires et la configuration de l'environnement de travail.
 
-## Enjeux et Objectifs
+2. **[Départements](./departements)** : Chaque département du pipeline (Modélisation, Texturing, Rigging, Animation, Lighting, TLO) est détaillé dans une section dédiée. Pour chaque département, vous trouverez une description de son rôle, les entrées et sorties attendues, ainsi que des guides pratiques pour créer et publier des scènes dans Houdini ou Maya. 
 
-- Nous voulions intégrer le **RLO** ( rough layout ) et le **FLO** ( final layout ) comme part entière du pipeline.
-- Créer un pipeline compatible avec Prism pour faciliter la création de scènes avec des Template, et l'importation d'assets en utilisant le drag & drop de Prism
-- Gérer les FX avec des **setup a la séquence** et des **intégration au shot**.
+3. **[Structure](./structure)** : Cette section décrit la structure des fichiers et des dossiers utilisés dans le pipeline USD, ainsi que les conventions de nommage à respecter.
+
+4. **[Outils](./outils)** : Ici, vous trouverez des informations sur les outils et scripts développés pour faciliter le travail avec le pipeline USD.
+
+5. **[Références](./references)** : La dernière section liste les ressources et documentations utilisées pour la création du pipeline, ainsi que des liens utiles pour approfondir vos connaissances sur l'USD.
+

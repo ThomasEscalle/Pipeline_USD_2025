@@ -7,18 +7,18 @@ icon: material/tools
 Voici la liste des outils développés à disposition :
 
 
-## Prism
+## :material-diamond-stone: Prism
 
 
--   [:material-cube:{ .lg .middle } **Prism Pluggin Principal**](./prism_main_pluggin)
+-   [:material-power-plug-outline:{ .lg .middle } **Prism Pluggin Principal**](./prism_main_pluggin)
 
 
 
-## Maya
+## ![Maya_icon](../assets/icons/maya.png){width=30px} Maya
 
--   [:material-cube:{ .lg .middle } **Maya Shelf**](./maya_shelf)
--   [:material-cube:{ .lg .middle } **Maya "Save As" Script**](./maya_saveas_script)
+-   [:material-bookshelf:{ .lg .middle } **Maya Shelf**](./maya_shelf)
+-   [:material-content-save:{ .lg .middle } **Maya "Save As" Script**](./maya_saveas_script)
 
-## Autre
+## :material-pool-thermometer: Autre
 
--   [:material-cube:{ .lg .middle } **Installer**](./installer)
+-   [:material-download:{ .lg .middle } **Installer**](./installer)

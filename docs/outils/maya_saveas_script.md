@@ -1,4 +1,8 @@
-# Maya "**Save As**" Script
+---
+icon: material/content-save
+---
+
+# :material-content-save: Maya "**Save As**" Script
 
 ![image](../assets/screen_outils_SaveAs/main.png){width=500px}
 
