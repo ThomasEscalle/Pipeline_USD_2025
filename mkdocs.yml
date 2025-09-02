@@ -33,6 +33,8 @@ nav:
   - Références: references.md
 theme:
   name: material
+  logo: assets/icons/ICON.png
+  favicon: assets/icons/ICON.png
   features:
     - navigation.footer
     - navigation.tabs
