@@ -18,6 +18,8 @@ La plupart des fonctionnalités que nous exploitons proviennent en réalité d�
 
 ## :material-download-box-outline: Comment installer le pipeline sur mon ordinateur ?
 
+Il vous suffit de suivre les instructions détaillées dans la section [Installation](../outils/installer/#utilisation-de-linstalleur) de la documentation, puis de continuer dans la section [Installer les outils](../outils/installer/#installer-les-outils)
+
 ----
 
 ## :material-download-circle-outline: Comment installer le pipeline sur un serveur ?

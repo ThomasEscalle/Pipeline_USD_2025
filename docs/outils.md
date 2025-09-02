@@ -12,6 +12,7 @@ Voici la liste des outils développés à disposition :
 
 -   [:material-power-plug-outline:{ .lg .middle } **Prism Pluggin Principal**](./prism_main_pluggin)
 -   [:material-draw:{ .lg .middle } **Prism Pluggin pour ZBrush**](./prism_zbrush_pluggin)
+-   [:material-draw:{ .lg .middle } **Prism Pluggin pour Substance Painter**](./prism_substance_pluggin)
 
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Maya
