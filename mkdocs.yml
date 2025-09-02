@@ -26,6 +26,7 @@ nav:
   - Outils:
     - Outils: outils.md
     - Prism Pluggin Principal: outils/prism_main_pluggin.md
+    - Prism Pluggin pour ZBrush: outils/prism_zbrush_pluggin.md
     - Maya "Shelf": outils/maya_shelf.md
     - Maya "Save As" Script: outils/maya_saveas_script.md
     - Installer: outils/installer.md
