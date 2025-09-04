@@ -38,7 +38,34 @@ Le Rigging High produit en sortie un fichier `.ma` pret à être utilisé dans l
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment créer une scène dans Maya
 
-1. Todo
+
+1. Assurez-vous d'avoir un département de `Rig High` dans votre asset. Si ce n'est pas le cas, créez-en un.<br>
+![image](../assets/screen_rig_high/01.png){width=500px}
+
+2. Créez vous une tache (exemple : `Rigging`). A noter que la nomenclature des taches n'est pas importante pour l'instant, vous pouvez mettre ce que vous voulez.<br>
+![image](../assets/screen_rig_high/02.png){width=500px}
+
+3. Click droit sur la partie 'files' (à droite), puis : <br>
+`Create Template` -> `Rigging` -> `Maya - High`, ou simplement sur `Create Template` -> `Auto Maya`<br>
+![image](../assets/screen_rig_high/03.png){width=500px}
+
+4. Cela devrait ouvrir une boite de dialogue demandant les paramètres de création de la scène.
+    - Le "`Create rigging groups`" détermine si on crée la hierarchie de rigging automatiquement ou pas.
+    - Le "`Create Reference`" détermine si on importe des assets ou non.
+    - Le "`Import with namespace`" détermine si les assets importés auront un namespace ou non.
+    - Le "`Import namespace`" détermine le namespace à utiliser pour les assets importés (par défaut MOD_HIGH).
+    - Le "`Import method`" détermine le mode d'importation (par exemple, en référence ou en dur).
+![image](../assets/screen_rig_high/04.png){width=500px}
+
+5. Notez qu'il y'a une seconde page dans ce dialogue : "`Import Products`". C'est la page qui sert à affiner les products qui seront importées dans la scène au cas ou l'algorithme passe à coté de quelque chose. Ici, on vas importer nos modeling low comme base pour nos rig low.
+Lisez la [documentation](https://thomasescalle.github.io/Pipeline_USD_2025/outils/prism_main_pluggin/) pour plus de détails sur cette page.<br>
+![image](../assets/screen_rig_high/05.png){width=500px}
+
+6. Cliquez sur le bouton "Create" pour créer la scène.
+
+Cela devrait vous créer un fichier en `.ma`. Double cliquez dessus pour l'ouvrir dans Maya.<br>
+Dans maya, il devrait y avoir une hierarchie déja présente, avec les assets importés correctement.
+
 
 ------
 
@@ -69,5 +96,26 @@ char_<assetName>_righ_grp
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
-1. Todo
+1. Une fois votre rig terminée, assurez-vous tout est propre, sans problèmes.<br>
+
+2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_righ_grp`.<br>
+![image](../assets/screen_rig_high/06.png){width=500px}
+
+3. Selectionnez le groupe `[département]_[nom]_righ_grp` dans l'outliner.
+
+4. Ouvrez la fenêtre du pipeline de production et cliquez sur le bouton `Publish`.<br>
+![image](../assets/screen_modeling_low/04.png){width=500px}
+
+5. Une fenêtre s'ouvre, verifiez bien que le champ `Output Type` est bien sur `.ma`, et que le champ `object` est bien sur le groupe a publier (`[département]_[nom]_righ_grp`).<br>
+
+6. Cliquez sur le bouton `Add Selected` <br>
+
+7. Cliquez sur le bouton `Export` pour publier votre fichier.<br>
+![image](../assets/screen_rig_high/07.png){width=500px}
+
+8. Une fenetre vous demandans si vous etes d'accord pour importer les références et cleaner la scène peut s'ouvrir. Cliquez sur `Continue`.<br>
+![image](../assets/screen_rig_high/08.png){width=500px}
+
+9. Vous devriez voir un message de succès qui s'affiche. Le rig est maintenant publié sous le nom "RigL_Publish".<br>
+![image](../assets/screen_rig_high/09.png){width=500px}
 
