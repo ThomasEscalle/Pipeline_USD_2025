@@ -61,12 +61,12 @@ Dans maya, il devrait y avoir une hierarchie déja présente.
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
-1. Une fois votre modélisation terminée, assurez-vous tout est propre, sans problèmes dans la géometrie (faire un `Mesh Cleanup` si besoin).<br>
+1. Une fois votre modélisation terminée, assurez-vous tout est propre, sans problèmes (faire un cleanup si nécessaire).<br>
 
-2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_modl_low`.<br>
+2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_modl_grp`.<br>
 ![image](../assets/screen_modeling_low/03.png){width=500px}
 
-3. Selectionnez le groupe `[département]_[nom]_modl_low` dans l'outliner.
+3. Selectionnez le groupe `[département]_[nom]_modl_grp` dans l'outliner.
 
 4. Ouvrez la fenêtre du pipeline de production et cliquez sur le bouton `Publish`.<br>
 ![image](../assets/screen_modeling_low/04.png){width=500px}

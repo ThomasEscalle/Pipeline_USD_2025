@@ -26,7 +26,7 @@ Ces modèles serviront à :
 
 ## :material-import: Qu'est ce qui rentre ?
 
-Le Modeling High reçoit en entrée le fichier `.usd` produit par le Modeling Low.
+Le Modeling High reçoit éventuellement en entrée le fichier `.usd` produit par le Modeling Low.
 
 -----
 
@@ -68,11 +68,25 @@ Dans maya, il devrait y avoir une hierarchie déja présente, avec les assets im
 
 -----
 
+## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment la scène est t'elle crée automatiquement ?
+
+La scène crée contiens simplement des groupes vides a la racine, avec des noms spécifiques en fonction de leurs numéros de variation.<br>
+```
+<item_type>_<assetName>_modh_grp[_var001]
+```
+
+De plus des assets sont importées automatiquement :
+
+- Le `Modeling Low` de l'asset courant. L'algorythme recherche les modeling low publié, dont le format est en `.usd`, en `.usda`, en `.usdc`, en `.abc` ou en `.obj`. Si il en trouve plusieurs (comme avec des variants), il les prends tous et les importe. Il detecte les Modeling Low en cherchant les assets qui contiennent a la fois "`ModL`" et "`Publish`" dans leur nom. Il est possible d'ajuster cette selection dans la fenetre de création de la scène, dans l'onglet "`Import Products`".
+
+
+-----
+
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
 1. Une fois votre modélisation terminée, assurez-vous tout est propre, sans problèmes dans la géometrie (faire un `Mesh Cleanup` si besoin).<br>
 
-2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_modh_low`.<br>
+2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_modh_grp`.<br>
 ![image](../assets/screen_modeling_low/03.png){width=500px}
 
 3. Selectionnez le groupe `[département]_[nom]_modh_low` dans l'outliner.
@@ -97,14 +111,67 @@ Une fois terminé, cliquez sur `OK`, ou `Annuler` si vous souhaitez annuler l'ex
 
 -----
 
+
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment créer une scène dans Houdini
 
-1. Todo
+1. Assurez-vous d'avoir un département de `Modeling High` dans votre asset. Si ce n'est pas le cas, créez-en un.<br>
+![image](../assets/screen_modeling_high/h01.png){width=500px}
+
+2. Créez vous une tache (exemple : `Modeling`, ou `Modeling_procedural`). A noter que la nomenclature des taches n'est pas importante pour l'instant, vous pouvez mettre ce que vous voulez (UV, Procedural, Modeling, etc.).<br>
+![image](../assets/screen_modeling_high/h02.png){width=500px}
+
+3. Click droit sur la partie 'files' (à droite), puis : <br>
+`Create Template` -> `Modeling` -> `Houdini - High`, ou simplement sur `Create Template` -> `Auto Houdini`<br>
+![image](../assets/screen_modeling_high/h03.png){width=500px}
+
+4. Cela devrait ouvrir une boite de dialogue demandant les paramètres de création de la scène.
+    - Le "`Creation Method`" détermine si le nombre d'asset a créer dépends du nombre d'assets a importer, ou si on crée un nombre fixe d'assets grace au paramètre "Number of output groups".
+    - Le "`Number of output groups`" correspond au nombre d'assets qui sont crées dans la scènes, et donc au nombre de variations qui seront générées.
+    - Le "`Import References`" détermine si on importe des assets ou non.
+![image](../assets/screen_modeling_high/h04.png){width=500px}
+
+5. Notez qu'il y'a une seconde page dans ce dialogue : "`Import Products`". C'est la page qui sert à affiner les products qui seront importées dans la scène au cas ou l'algorithme passe à coté de quelque chose. Ici, on vas importer nos modeling low comme base pour nos modeling high.
+Lisez la [documentation](https://thomasescalle.github.io/Pipeline_USD_2025/outils/prism_main_pluggin/) pour plus de détails sur cette page.<br>
+![image](../assets/screen_modeling_high/h06.png){width=500px}
+
+6. Une fois remplie, cliquez sur `Create`.
+
+Cela devrait vous créer un fichier en `.hip`. Double cliquez dessus pour l'ouvrir dans Houdini.<br>
+Dans Houdini, il devrait y avoir une hierarchie déja présente. Chaque node "geo" correspond à une variation de l'asset.<br>
+
+![image](../assets/screen_modeling_high/h05.png){width=500px}
 
 -----
 
-## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment publier une scène dans Houdini
 
-1. Todo
+## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment la scène est t'elle crée automatiquement ?
+
+La scène crée contiens contiens des nodes "geo" a la racine, pour chaque variation de l'asset.<br>
+
+De plus des assets sont importées automatiquement :
+- Le `Modeling Low` de l'asset courant. L'algorythme recherche les modeling low publié, dont le format est en `.usd`, en `.usda`, en `.usdc`, en `.abc` ou en `.obj`. Si il en trouve plusieurs (comme avec des variants), il les prends tous et les importe. Il detecte les Modeling Low en cherchant les assets qui contiennent a la fois "`ModL`" et "`Publish`" dans leur nom. Il est possible d'ajuster cette selection dans la fenetre de création de la scène, dans l'onglet "`Import Products`".
 
 -----
+
+## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Ou construire la géo dans Houdini ?
+
+1. Dans Houdini, double cliquez dans un des nodes "Geo" qui se trouvent au root de la scène.<br>
+![image](../assets/screen_modeling_high/h07.png){width=500px}
+
+2. A l'interieur, double cliquez sur le node "ModH".<br>
+![image](../assets/screen_modeling_high/h08.png){width=500px}
+
+3. Vous pouvez maintenant construire la géométrie de votre asset à l'intérieur de ce node, à votre guise.<br>
+![image](../assets/screen_modeling_high/h09.png){width=500px}
+
+-----
+
+## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment publier une scène dans Houdini ?
+
+1. Rendez vous à l'intérieur d'un node "Geo" qui se trouve au root de la scène.
+
+2. Cliquez sur le node "`ModH_FileCache_Publish`" (ou sur le node "`ModH_FileCache_Export`" si vous voulez faire un export).<br>
+![image](../assets/screen_modeling_high/h10.png){width=500px}
+
+3. Le node devrait être pré-configuré avec les bons paramètres d'export. Cliquez sur `Save to Disk` pour publier.
+![image](../assets/screen_modeling_high/h11.png){width=500px}
