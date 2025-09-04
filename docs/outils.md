@@ -20,6 +20,10 @@ Voici la liste des outils développés à disposition :
 -   [:material-bookshelf:{ .lg .middle } **Maya Shelf**](./maya_shelf)
 -   [:material-content-save:{ .lg .middle } **Maya "Save As" Script**](./maya_saveas_script)
 
+## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Houdini
+-  :material-bookshelf:{ .lg .middle } **Nodes**
+    -  [:material-export:{ .lg .middle } **Bp Export**](./houdini_node_bp_export)
+
 ## :material-pool-thermometer: Autre
 
 -   [:material-download:{ .lg .middle } **Installer**](./installer)

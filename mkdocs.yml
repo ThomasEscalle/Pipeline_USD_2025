@@ -29,6 +29,7 @@ nav:
     - Prism Pluggin pour ZBrush: outils/prism_zbrush_pluggin.md
     - Maya "Shelf": outils/maya_shelf.md
     - Maya "Save As" Script: outils/maya_saveas_script.md
+    - Houdini "Bp Export" Node: outils/houdini_node_bp_export.md
     - Installer: outils/installer.md
   - Q & A: qanda.md
   - Références: references.md
