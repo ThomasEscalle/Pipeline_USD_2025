@@ -43,7 +43,21 @@ Un module génère un fichier `.usd` qui référence tous les assets importés e
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment créer une scène dans Houdini
 
-1. Todo
+
+1. Assurez-vous d'avoir un département de `Modules` dans votre asset. Si ce n'est pas le cas, créez-en un.<br>
+![image](../assets/screen_modu/01.png){width=500px}
+
+2. Créez vous une tache (exemple : `Modules`). A noter que la nomenclature des taches n'est pas importante pour l'instant, vous pouvez mettre ce que vous voulez.<br>
+![image](../assets/screen_modu/02.png){width=500px}
+
+3. Click droit sur la partie 'files' (à droite), puis : <br>
+`Create Template` -> `Modules` -> `Houdini`, ou simplement sur `Create Template` -> `Auto Houdini`<br>
+![image](../assets/screen_modu/03.png){width=500px}
+
+Cela devrait vous créer un fichier en `.hip`. Double cliquez dessus pour l'ouvrir dans Houdini.<br>
+Dans Houdini, il devrait y avoir une hierarchie déja présente. Rendez vous dans le contexte `stage` pour accéder à la scène.<br>
+
+![image](../assets/screen_modu/04.png){width=500px}
 
 -----
 
@@ -56,9 +70,28 @@ Elle ne contient que le nécessaire pour créer un module, le nettoyer, et le pu
 
 Le nettoyage du module consiste uniquement à grouper les éléments ensemble sous un groupe parent. Il n'est donc pas nécessaire de trop se soucier de la hiérarchie au moment du placement des assets.
 
+-----
+
+## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Ou construire le module dans Houdini ?
+
+1. Dans Houdini, rendez vous dans le contexte `stage`.<br>
+![image](../assets/screen_modu/05.png){width=500px}
+
+2. A l'interieur, double cliquez sur le node vert `Assembly` pour entrer à l'intérieur.<br>
+![image](../assets/screen_modu/06.png){width=500px}
+
+3. Vous pouvez maintenant construire votre module à l'intérieur de ce node, à votre guise.<br>
+![image](../assets/screen_modu/07.png){width=500px}
 
 -----
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment publier une scène dans Houdini
 
-1. Todo
+1. Dans Houdini, rendez vous dans le contexte `stage`.<br>
+![image](../assets/screen_modu/05.png){width=500px}
+
+2. Cliquez sur le node jaune `Publish` pour le sélectionner.<br>
+![image](../assets/screen_modu/08.png){width=500px}
+
+3. Cliquez sur le bouton `Save to disk` dans le panneau de droite.<br>
+![image](../assets/screen_modu/09.png){width=500px}

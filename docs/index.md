@@ -118,4 +118,4 @@ Merci aussi à :
 **Nathan LUBRANO DI VAVARIA** : pour son aide sur la structure et les nomenclatures, ses retours, et pour avoir relu la documentation. 
 
 [:fontawesome-brands-linkedin:](https://www.linkedin.com/in/nathan-lubrano-di-vavaria-b98758238/){ .md-button }
-[:fontawesome-solid-envelope:](#){ .md-button }
+[:fontawesome-solid-envelope:](mailto:nathan.lubranodivavaria@gmail.com){ .md-button }
