@@ -90,7 +90,6 @@ Vous pouvez aussi m'envoyer un message pour que j'ajoute votre nom dans la secti
 
 ## Contributeurs
 
-
 **Thomas ESCALLE** :
 
 Développeur principal du pipeline USD, responsable de l'architecture et de l'implémentation des outils. Contributeur principal de la documentation. Accessoirement, chef suprême super cool (CSSC) du film Uptight.
@@ -108,8 +107,7 @@ Développeur du plugin ZBrush, et Substance permettant ainsi les intégrations d
 
 [:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mathieu-carrey-91531b327/){ .md-button }
 [:fontawesome-brands-github:](https://github.com/Calimer01){ .md-button }
-[:fontawesome-solid-envelope:](#){ .md-button }
-
+[:fontawesome-solid-envelope:](mailto:nathan.lubranodivavaria@gmail.com){ .md-button }
 
 ------
 
