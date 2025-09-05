@@ -90,7 +90,15 @@ Le nettoyage automatique du SetDress consiste à grouper tous les elements sous 
 
 -----
 
+## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment importer des assets dans le SetDress ?
+
+todo
+
+-----
+
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment publier une scène dans Houdini
+
+Voir [la documentation sur le node `BP_Publish`](../../outils/houdini_node_bp_export)
 
 1. Dans Houdini, rendez vous dans le contexte `stage`.<br>
 ![image](../assets/screen_modu/05.png){width=500px}

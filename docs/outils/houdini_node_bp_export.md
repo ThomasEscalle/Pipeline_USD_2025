@@ -6,7 +6,7 @@ icon: material/export
 
 ## :material-information: Description
 
-Ce nœud Houdini permet d’**exporter des fichiers .usd** depuis le stage, directement dans Prism. Il implémente ainsi le système de produits et de gestion de versions.<br>
+Ce nœud Houdini permet d’**exporter des fichiers .usd, .usda, .usdc ..** depuis le stage, directement dans Prism. Il implémente ainsi le système de produits et de gestion de versions.<br>
 ![image](../assets/screen_outils_BpExport/00.png){width=500px}
 
 ## :material-plus-circle: Comment le créer ?

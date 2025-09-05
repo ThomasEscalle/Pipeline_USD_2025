@@ -84,6 +84,8 @@ De plus des assets sont importées automatiquement :
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
+Voir [la documentation sur le script `Save As`](../../outils/maya_saveas_script)
+
 1. Une fois votre modélisation terminée, assurez-vous tout est propre, sans problèmes dans la géometrie (faire un `Mesh Cleanup` si besoin).<br>
 
 2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_modh_grp`.<br>
@@ -110,7 +112,6 @@ Une fois terminé, cliquez sur `OK`, ou `Annuler` si vous souhaitez annuler l'ex
 8. Vous devriez voir un message de **succès** qui s'affiche. Le modeling est maintenant publié et automatiquement appliqué a l'asset USD.
 
 -----
-
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment créer une scène dans Houdini
 

@@ -96,6 +96,8 @@ char_<assetName>_righ_grp
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
+Voir [la documentation sur le script `Save As`](../../outils/maya_saveas_script)
+
 1. Une fois votre rig terminée, assurez-vous tout est propre, sans problèmes.<br>
 
 2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_righ_grp`.<br>

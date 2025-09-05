@@ -26,6 +26,7 @@ Les lights peuvent etre animées, pour simuler des effets de lumières dynamique
 ## :material-import: Qu'est ce qui rentre ?
 
 Au moment de la création de la scène, deux elements principaux sont importés :
+
 - La scène d'`Assembly`, qui inclut tous les éléments nécessaires pour le shot, tels que les personnages, les décors, les accessoires, et les effets visuels.
 - Le fichier de `Master Lighting`, qui contient les lumières et les réglages d'éclairage globaux pour la séquence.
 

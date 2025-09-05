@@ -61,6 +61,8 @@ Dans maya, il devrait y avoir une hierarchie déja présente.
 
 ## ![Maya_icon](../assets/icons/maya.png){width=30px} Comment publier une scène dans Maya
 
+Voir [la documentation sur le script `Save As`](../../outils/maya_saveas_script)
+
 1. Une fois votre modélisation terminée, assurez-vous tout est propre, sans problèmes (faire un cleanup si nécessaire).<br>
 
 2. Assurez-vous que tous les objets soit bien hièrarchisés, et bien groupés dans le groupe `[département]_[nom]_modl_grp`.<br>
