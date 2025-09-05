@@ -23,3 +23,9 @@ Voici le miro board que j'ai crée pour le projet. Il sert a les differentes ét
 <iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVIGE7tZo=/?moveToViewport=-4399,-2989,25838,9710&embedId=330836658338" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 [Lien Miro](https://miro.com/app/board/uXjVIGE7tZo=/)
+
+------
+
+## :material-checkbox-outline: Todo List
+
+Todo list [ici](../todo)
