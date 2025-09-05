@@ -24,10 +24,10 @@
 - <font color="green">:material-checkbox-outline:</font> - Maya
 - <font color="green">:material-checkbox-outline:</font> - Documentation
 
-### <font color="red">:material-checkbox-blank-outline:</font> Surfacing
-- <font color="red">:material-checkbox-blank-outline:</font> - Houdini
+### <font color="orange">:material-checkbox-blank-outline:</font> Surfacing
+- <font color="green">:material-checkbox-outline:</font> - Houdini
 - <font color="red">:material-checkbox-blank-outline:</font> - Substance Painter
-- <font color="red">:material-checkbox-blank-outline:</font> - Documentation
+- <font color="green">:material-checkbox-outline:</font> - Documentation
 
 ### <font color="green">:material-checkbox-outline:</font> Modules
 - <font color="green">:material-checkbox-outline:</font> - Houdini
@@ -64,3 +64,13 @@
 ### <font color="red">:material-checkbox-blank-outline:</font> TLO
 - <font color="red">:material-checkbox-blank-outline:</font> - Houdini
 - <font color="red">:material-checkbox-blank-outline:</font> - Documentation
+
+
+
+
+
+
+## Documentation générale :
+
+
+- <font color="red">:material-checkbox-blank-outline:</font> - Faire la page `Démarrage`

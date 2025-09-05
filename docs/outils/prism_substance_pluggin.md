@@ -1,7 +1,7 @@
 ---
-icon: material/draw
+icon: material/pen
 ---
 
-# :material-draw: Prism pluggin pour Substance Painter
+# :material-pen: Prism pluggin pour Substance Painter
 
 Développé par l'extraordinaire : **Mathieu Carrey**

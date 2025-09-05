@@ -24,8 +24,3 @@ Voici le miro board que j'ai crée pour le projet. Il sert a les differentes ét
 
 [Lien Miro](https://miro.com/app/board/uXjVIGE7tZo=/)
 
-------
-
-## :material-checkbox-outline: Todo List
-
-Todo list [ici](../todo)

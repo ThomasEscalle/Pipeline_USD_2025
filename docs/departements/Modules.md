@@ -103,3 +103,4 @@ Voir [la documentation sur le node `BP_Publish`](../../outils/houdini_node_bp_ex
 
 3. Cliquez sur le bouton `Save to disk` dans le panneau de droite.<br>
 ![image](../assets/screen_modu/09.png){width=500px}
+

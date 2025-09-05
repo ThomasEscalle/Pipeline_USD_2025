@@ -13,8 +13,11 @@ Le but de ce projet est de créer un pipeline de production pour les films de 4e
 
 !!! note
     Pour l'instant, le pipeline est en phase de recherche et de développement. Il n'est pas encore opérationnel. Le but de ce document est de présenter les avancées du projet et les choix techniques qui ont été faits.
+    
+    Voir l'avancée du projet [ici](./todo)
 
 **Pourquoi Badger ? **Car ça sonne plutot bien et qu'il fallais un nom de code au projet.
+
 
 ------
 
