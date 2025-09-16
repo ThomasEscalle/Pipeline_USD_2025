@@ -23,6 +23,8 @@ Voici la liste des outils développés à disposition :
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Houdini
 -  :material-bookshelf:{ .lg .middle } **Nodes**
     -  [:material-export:{ .lg .middle } **Bp Export**](./houdini_node_bp_export)
+-  :material-window-open:{ .lg .middle } **Fenêtres**
+    -  [:material-window-restore:{ .lg .middle } **Bp Asset Browser**](./houdini_window_bp_asset_browser)
 
 ## :material-pool-thermometer: Autre
 

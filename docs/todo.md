@@ -29,9 +29,10 @@
 - <font color="red">:material-checkbox-blank-outline:</font> - Substance Painter
 - <font color="green">:material-checkbox-outline:</font> - Documentation
 
-### <font color="green">:material-checkbox-outline:</font> Modules
+### <font color="orange">:material-checkbox-blank-outline:</font> Modules
 - <font color="green">:material-checkbox-outline:</font> - Houdini
 - <font color="green">:material-checkbox-outline:</font> - Documentation
+- <font color="red">:material-checkbox-blank-outline:</font> - Asset USD (faire un script pour automatiser la création des assets USD a partir des modules ?)
 
 ### <font color="green">:material-checkbox-outline:</font> Set Dressing
 - <font color="green">:material-checkbox-outline:</font> - Houdini
@@ -67,10 +68,12 @@
 
 
 
+## Outils :
 
+- <font color="red">:material-checkbox-blank-outline:</font> - Faire le systeme de bookmarks dans le `Bp Asset Browser` Houdini
 
 
 ## Documentation générale :
 
 
-- <font color="red">:material-checkbox-blank-outline:</font> - Faire la page `Démarrage`
+- <font color="green">:material-checkbox-outline:</font> - Faire la page `Démarrage`
