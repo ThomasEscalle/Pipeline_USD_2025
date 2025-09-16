@@ -90,3 +90,5 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 copyright: |
   &copy; 2025 <a href="https://github.com/ThomasEscalle"  target="_blank" rel="noopener">Thomas ESCALLE</a>
+plugins:
+   - glightbox

@@ -23,6 +23,8 @@ Pour le rig de personnages, je conseille vivement d'utiliser un **autorig** pour
 !!! note
     Les rigs ne se font que dans maya, car l'animation ne se fait que dans maya. Si vous voullez faire un rig dans houdini, il faudra le faire au niveau des FX.
 
+Voir [../outils/maya_props_autorig.md] pour une méthode automatique de création de rigs low et high pour les props.
+
 -----
 
 ## :material-import: Qu'est ce qui rentre ?
