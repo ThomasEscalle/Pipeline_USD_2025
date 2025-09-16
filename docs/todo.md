@@ -77,3 +77,4 @@
 
 
 - <font color="green">:material-checkbox-outline:</font> - Faire la page `Démarrage`
+- <font color="orange">:material-checkbox-blank-outline:</font> - Finir la doc de l'`Autorig Maya`

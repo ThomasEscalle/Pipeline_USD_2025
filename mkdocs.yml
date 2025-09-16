@@ -27,9 +27,12 @@ nav:
     - Outils: outils.md
     - Prism Pluggin Principal: outils/prism_main_pluggin.md
     - Prism Pluggin pour ZBrush: outils/prism_zbrush_pluggin.md
+    - Prism Pluggin pour Substance Painter: outils/prism_substance_pluggin.md
     - Maya "Shelf": outils/maya_shelf.md
     - Maya "Save As" Script: outils/maya_saveas_script.md
+    - Maya "Props Autorig" Script: outils/maya_props_autorig.md
     - Houdini "Bp Export" Node: outils/houdini_node_bp_export.md
+    - Houdini "Asset Browser" Window: outils/houdini_window_bp_asset_browser.md
     - Installer: outils/installer.md
   - Q & A: qanda.md
   - Références: references.md
