@@ -78,3 +78,24 @@
 
 - <font color="green">:material-checkbox-outline:</font> - Faire la page `Démarrage`
 - <font color="green">:material-checkbox-outline:</font> - Finir la doc de l'`Autorig Maya`
+
+<br>
+<br>
+
+
+## Notes Nathan :
+
+1. Sur la cam, il faudrais un show / hide animatic 
+    Quand on crées la camera dans les scenes (RLO), il faudrais avoir un image plane a l'interieur (qui suis) , avoir un controlle de l'opacité, et un bouton show / hide. Idéalement, avoir un bouton pour le caller en haut a gauche de la vue.
+(modifier le rig de camera)
+
+2. Prevoir un system d'offset / group pour plusieurs assets en meme temps. (compliqué)
+
+3. Curve path pour les caméras et les véhicules.
+    Prévoir un script pour faciliter la création de curve path (avec des controlleurs pour les points de la courbe) :
+    - ouvrir une fenetre qui demande le nombre de controlleurs, ainsi que la taille de la courbe
+    - créer une courbe avec le nombre de controlleurs demandé
+    - Ajouter un node Rebuild curve, dont la résolution est drivé par un attribu
+    - Ajouter un controlleur par dessus qui slide sur la courbe a partir d'un parametre U (de 0 a 1)
+
+4. en RIG, voir comment implementer les deformers dans les rigs

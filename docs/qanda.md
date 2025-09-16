@@ -20,9 +20,26 @@ La plupart des fonctionnalités que nous exploitons proviennent en réalité d�
 
 Il vous suffit de suivre les instructions détaillées dans la section [Installation](../outils/installer/#utilisation-de-linstalleur) de la documentation, puis de continuer dans la section [Installer les outils](../outils/installer/#installer-les-outils)
 
-----
+
+------
 
 ## :material-download-circle-outline: Comment installer le pipeline sur un serveur ?
+
+----
+
+## :material-guy-fawkes-mask: Qu'est ce qu'un département dans Prism ?
+
+----
+
+## :material-drama-masks: Comment créer un département dans Prism ?
+
+----
+
+## :material-flask: Qu'est ce qu'une task dans Prism ?
+
+----
+
+## :material-flask-outline: Comment créer une task dans Prism ?
 
 ----
 
