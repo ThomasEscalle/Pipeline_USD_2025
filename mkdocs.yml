@@ -34,6 +34,7 @@ nav:
     - Houdini "Bp Export" Node: outils/houdini_node_bp_export.md
     - Houdini "Asset Browser" Window: outils/houdini_window_bp_asset_browser.md
     - Installer: outils/installer.md
+  - Bugs Connus: bugs_connus.md
   - Q & A: qanda.md
   - Références: references.md
 theme:
