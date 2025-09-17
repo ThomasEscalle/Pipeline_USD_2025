@@ -29,13 +29,29 @@ Il vous suffit de suivre les instructions détaillées dans la section [Installa
 
 ## :material-guy-fawkes-mask: Qu'est ce qu'un département dans Prism ?
 
+Dans Prism, un **département** est une catégorie ou une division qui regroupe des tâches et des rôles spécifiques au sein d’un projet. Chaque département correspond généralement à une étape clé du pipeline de production, comme le modeling, le rigging, l’animation, le surfacing, etc.
+
+Dans notre pipeline, la nomenclature des départements est **très importante**, car c'est avec cela que Prism va déterminer quel type de scène créer, quels produits sont attendus, et comment gérer les assets. Je vous demande donc de ne pas essayer de les renommer, et de me demander si vous voulez en créer un nouveau.
+
 ----
 
 ## :material-drama-masks: Comment créer un département dans Prism ?
 
+1. Selectionnez l'asset ou le shot dans lequel vous voulez créer le département.
+
+2. Dans la colonne ``Departments``, faites un clic droit, puis ``Add Department...``.
+
+3. Une boite de dialogue s'ouvre. Sélectionnez le ou les département que vous voulez créer dans la liste, puis cliquez sur ``Create``.
+
 ----
 
 ## :material-flask: Qu'est ce qu'une task dans Prism ?
+
+Une **task** dans Prism est une unité de travail spécifique assignée à un département. Chaque tâche représente une étape ou une activité particulière dans le processus de production. 
+
+On peu voir une task comme un "sous-ensemble" d'un département. Par exemple, dans le département de modélisation, on pourrait avoir des tâches distinctes pour la modélisation procédurale, la retopologie, les UVs, etc.
+
+La nomenclature des tâches n’a pas trop d’importance pour l’instant, vous pouvez nommer vos tâches comme vous le souhaitez, et en créer autant que nécessaire.
 
 ----
 
@@ -167,6 +183,14 @@ Par exemple, dans le département d'animation, on importe les ghosts animés du 
 Cela sert car par exemple, les rigs entre le RLO et le FLO sont différents et on peu repartir sur une base propre a chaque nouveau département.
 
 On vas appliquer un shader spécial aux ghosts pour les différencier visuellement dans le viewport.
+
+----
+
+## :material-camera: Ou placer les rigs de cameras (pour importer dans le RLO, FLO, et Animation) ?
+
+Pour accéder au dossier ou mettre votre rig de caméra, il faut vous rendre dans le projet, puis `00_Pipeline -> Templates`.
+
+C'est à cet endroit que vous pouvez mettre votre rig de caméra qui sera importé dans le RLO, FLO, et Animation. Le fichier **doit** s'appeler `camera_template.ma`.
 
 ----
 
