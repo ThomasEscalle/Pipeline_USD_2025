@@ -59,6 +59,51 @@ La nomenclature des tâches n’a pas trop d’importance pour l’instant, vous
 
 ----
 
+## :material-av-timer: Qu'est-ce qu'un framerange relatif ?
+
+Il existe deux manières de décrire le framerange d’un shot : en absolu ou en relatif.
+
+**En absolu** : chaque shot possède un framerange dont le début est la suite directe de la fin du shot précédent.
+
+*Par exemple :*
+```
+- le shot 010 va de la frame 1001 à 1100
+- le shot 020 va de 1101 à 1200
+- le shot 030 va de 1201 à 1300
+```
+
+**En relatif** : chaque shot commence à la même frame de référence, généralement la frame 1001.
+
+*Par exemple :*
+```
+- le shot 010 va de 1001 à 1100
+- le shot 020 va de 1001 à 1090
+- le shot 030 va de 1001 à 1351
+```
+
+-----
+
+## :material-clock-time-one-outline: Pourquoi avoir choisi d'utiliser un framerange relatif plutôt qu'absolu ?
+
+<font color="green">:material-lightbulb-outline:</font> Nous avons opté pour l'approche du framerange relatif pour plusieurs raisons pratiques :
+
+1. **Indépendance des shots** : Chaque shot possède son propre espace temporel, indépendant des autres. Cela permet de le modifier, l’étendre ou le réduire sans risque de "casser" la continuité du projet global.
+
+2. **Évolutivité** : Les projets évoluent constamment : ajout d’un nouveau plan, suppression d’un shot test, réorganisation d’une séquence… Avec le framerange relatif, ces ajustements se font rapidement et sans recalculs fastidieux.
+
+3. **Clarté et cohérence** : Tous les shots démarrent sur la même frame de référence (par ex. 1001). Cela facilite la lecture, la comparaison, et évite toute confusion entre différents départs de framerange. Cela évite aussi des erreurs mathématiques lors du comptage des frames.
+
+4. **Collaboration fluide** : Chaque artiste peut travailler sur son shot de manière autonome, sans dépendre des décisions prises sur les autres shots. Les changements locaux restent locaux.
+
+<font color="red">:material-alert-outline:</font> Cependant, il y'a aussi des inconvénients :
+
+1. **Difficulté technique entre le travail à la séquence et au shot** : Passer d’un layout de séquence (RLO) à un layout par shot (FLO) peut s’avérer complexe. Il faut veiller à bien gérer les offsets de frames entre les deux contextes pour éviter les décalages. Je vais essayer de faire cela automatiquement dans le pipeline, mais cela reste un point délicat.
+
+2. **Absence de continuité temporelle globale** : Contrairement au framerange absolu, il n’existe pas de frise temporelle unique reliant tous les shots les uns aux autres. Cela peut compliquer la visualisation d’une séquence complète dans un contexte montage, de compositing ou de projection.
+
+
+----
+
 ## :material-hexagon-multiple-outline: Qu'est ce qu'un variant en USD ?
 
 Un **variant** en USD est un mécanisme permettant de stocker plusieurs versions ou options d’un même élément dans un seul fichier. Cela permet, par exemple, de définir différentes variantes de couleur, de niveau de détail (LOD), ou de configuration pour un asset sans dupliquer toute la géométrie.
