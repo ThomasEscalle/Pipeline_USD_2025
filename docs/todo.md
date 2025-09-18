@@ -29,14 +29,14 @@
 - <font color="red">:material-checkbox-blank-outline:</font> - Substance Painter
 - <font color="green">:material-checkbox-outline:</font> - Documentation
 
-### <font color="orange">:material-checkbox-blank-outline:</font> Modules
+### <font color="green">:material-checkbox-outline:</font> Modules
 - <font color="green">:material-checkbox-outline:</font> - Houdini
 - <font color="green">:material-checkbox-outline:</font> - Documentation
-- <font color="red">:material-checkbox-blank-outline:</font> - Asset USD (faire un script pour automatiser la création des assets USD a partir des modules ?)
+- <font color="green">:material-checkbox-blank-outline:</font> - Asset USD (faire un script pour automatiser la création des assets USD a partir des modules ?)
 
 ### <font color="green">:material-checkbox-outline:</font> Set Dressing
 - <font color="green">:material-checkbox-outline:</font> - Houdini
-- <font color="green">:material-checkbox-outline:</font> - Documentation
+- <font color="green">:material-checkbox-outline:</font> - Documentation 
 
 ### <font color="green">:material-checkbox-outline:</font> Master Lighting
 - <font color="green">:material-checkbox-outline:</font> - Houdini
@@ -70,7 +70,9 @@
 
 ## Outils :
 
-- <font color="red">:material-checkbox-blank-outline:</font> - Faire le systeme de bookmarks dans le `Bp Asset Browser` Houdini
+- <font color="green">:material-checkbox-outline:</font> - Faire le systeme de bookmarks dans le `Bp Asset Browser` Houdini
+    - <font color="orange">:material-checkbox-blank-outline:</font> A tester en profondeur, pas mal de bugs possible
+    - <font color="orange">:material-checkbox-blank-outline:</font> Peut être rajouter un systeme de filtre avancé qui prends en compte en même temps les bookmarks, et la recherche par noms
 
 
 ## Documentation générale :
@@ -78,6 +80,13 @@
 
 - <font color="green">:material-checkbox-outline:</font> - Faire la page `Démarrage`
 - <font color="green">:material-checkbox-outline:</font> - Finir la doc de l'`Autorig Maya`
+- <font color="green">:material-checkbox-outline:</font> - Documenter le plugin principal prism
+    - <font color="green">:material-checkbox-outline:</font> - Documenter la fenetre de changement de variants
+    - <font color="red">:material-checkbox-blank-outline:</font> - Documenter la fenetre d'importation d'asset dans la création de scène
+    - <font color="red">:material-checkbox-blank-outline:</font> - Documenter la méthode pour mettre des links dans l'interface.
+    - <font color="red">:material-checkbox-blank-outline:</font> - Documenter l'USD View
+
+
 
 <br>
 <br>
@@ -99,3 +108,9 @@
     - Ajouter un controlleur par dessus qui slide sur la courbe a partir d'un parametre U (de 0 a 1)
 
 4. en RIG, voir comment implementer les deformers dans les rigs
+
+5. Scènes d'anim et fx, est-ce que t'as prévu qu'on puisse définir du pre-rool (et post-roll éventuellement) ? Et si possible par défault à une valeur genre 10 frames, mais que dans prism on puisse changer cette valeur dans le panneau des settings avancés
+
+6. Avoir un frame padding de +1 zéro (pour faire plaisir a nathan)
+
+

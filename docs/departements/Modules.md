@@ -85,11 +85,15 @@ Le nettoyage du module consiste uniquement à grouper les éléments ensemble so
 
 -----
 
-## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment importer des assets dans le SetDress ?
+## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment importer des assets dans la scène de modules ?
 
-todo
+Pour importer des assets dans la scène de modules, utilisez le `Bp Asset Browser` que vous trouverez dans le menu `Windows` de Houdini.
 
------
+Voir [la documentation du Bp Asset Browser](../../outils/houdini_window_bp_asset_browser) pour plus de détails.
+
+Il vous suffit de double cliquer sur un asset pour l'importer dans la scène. Vous pouvez ensuite le déplacer, le faire pivoter, et le redimensionner selon vos besoins.
+
+------
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment publier une scène dans Houdini
 
@@ -103,4 +107,3 @@ Voir [la documentation sur le node `BP_Publish`](../../outils/houdini_node_bp_ex
 
 3. Cliquez sur le bouton `Save to disk` dans le panneau de droite.<br>
 ![image](../assets/screen_modu/09.png){width=500px}
-

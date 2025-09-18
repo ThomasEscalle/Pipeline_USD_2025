@@ -2,7 +2,7 @@
 icon: material/power-plug-outline
 ---
 
-# :material-power-plug-outline: Prism Pluggin Principal
+# :material-power-plug-outline: Prism Plugin Principal
 
 Le pluggin Prism est le coeur du système du pipeline. J'ai assayé de garder l'esprit de prism, mais en integrant de manière fluide et discrète les outils USD.
 

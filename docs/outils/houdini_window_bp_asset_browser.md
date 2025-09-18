@@ -60,3 +60,18 @@ Il se compose de deux parties :
     - Les assets sont représentés par une icône, soit une mignature de l'asset, soit une icône générique selon le mode d'affichage choisi.<br>
 
     Il suffit de double cliquer sur un asset pour l'importer en référence dans la scène Houdini en cours.<br>
+
+
+## :material-wrench-outline: Système de bookmarks
+
+Pour ajouter un item à un **bookmark**, il suffit de faire un clic droit sur le dossier ou l'asset, et de sélectionner `Ajouter au bookmarks`, puis de selectionner la couleur souhaitée.<br>
+![image](../assets/screen_outils_AssetBrowser/06.png){width=500px}
+
+Pour retirer un item d'un bookmark, il suffit de faire un clic droit sur le dossier ou l'asset, et de sélectionner `Enlever du bookmark <couleur>`.<br>
+![image](../assets/screen_outils_AssetBrowser/07.png){width=500px}
+
+Pour accéder aux bookmarks, il suffit de cliquer sur la couleur correspondante dans la navigation rapide, ou de taper le nom de la couleur dans le champ de recherche avec un `@` devant (ex: `@red`).<br>
+![image](../assets/screen_outils_AssetBrowser/08.png){width=500px}
+
+Vous pouvez vider tous les items d'un bookmark en faisant un clic droit sur la couleur dans la navigation rapide, et en sélectionnant `Vider tous les bookmarks <couleur>`.<br>
+![image](../assets/screen_outils_AssetBrowser/09.png){width=500px}

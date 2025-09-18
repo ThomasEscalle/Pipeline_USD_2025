@@ -9,8 +9,8 @@ Voici la liste des outils développés à disposition :
 
 ## :material-diamond-stone: Prism
 
-
 -   [:material-power-plug-outline:{ .lg .middle } **Prism Pluggin Principal**](./prism_main_pluggin)
+    - [:material-hexagon-multiple-outline:{ .lg .middle } **Système d'édition des variants**](./prism_main_pluggin_variants)
 -   [:material-draw:{ .lg .middle } **Prism Pluggin pour ZBrush**](./prism_zbrush_pluggin)
 -   [:material-pen:{ .lg .middle } **Prism Pluggin pour Substance Painter**](./prism_substance_pluggin)
 
@@ -22,6 +22,7 @@ Voici la liste des outils développés à disposition :
 -   [:material-magic-staff:{ .lg .middle } **Maya Props Autorig**](./maya_props_autorig)
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Houdini
+
 -  :material-bookshelf:{ .lg .middle } **Nodes**
     -  [:material-export:{ .lg .middle } **Bp Export**](./houdini_node_bp_export)
     -  [:material-export:{ .lg .middle } **Bp Asset Reference**](./houdini_node_bp_asset_reference)

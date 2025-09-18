@@ -92,7 +92,11 @@ Le nettoyage automatique du SetDress consiste à grouper tous les elements sous 
 
 ## ![Houdini_icon](../assets/icons/houdini.png){width=30px} Comment importer des assets dans le SetDress ?
 
-todo
+Pour importer des assets dans le SetDress, utilisez le `Bp Asset Browser` que vous trouverez dans le menu `Windows` de Houdini.
+
+Voir [la documentation du Bp Asset Browser](../../outils/houdini_window_bp_asset_browser) pour plus de détails.
+
+Il vous suffit de double cliquer sur un asset pour l'importer dans la scène. Vous pouvez ensuite le déplacer, le faire pivoter, et le redimensionner selon vos besoins.
 
 -----
 
