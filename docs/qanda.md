@@ -104,6 +104,39 @@ Il existe deux manières de décrire le framerange d’un shot : en absolu ou en
 
 ----
 
+## :material-timer-plus-outline: Qu'est ce que le préroll et le postroll ?
+
+Le **préroll** correspond à quelques frames ajoutées avant le début réel d’un shot.
+Pendant ce laps de temps :
+
+- les rigs passent de la T-Pose (position neutre) à leur première pose animée,
+- les artistes CFX peuvent lancer leurs simulations dans un état stable (cheveux, vêtements, accessoires…),
+- les personnages peuvent être déplacés pour que tous les éléments dynamiques suivent correctement.
+
+En résumé, le préroll sert de zone tampon qui prépare la simulation avant l’action visible du shot.
+
+
+Le **postroll** correspond à quelques frames ajoutées après la fin du shot.
+Elles servent surtout à stabiliser ou conclure les simulations, mais sont utilisées plus rarement que le préroll.
+
+----
+
+## :material-timer-off-outline: Comment définir le préroll et le postroll d'un shot dans Prism ?
+
+1. Rendez-vous dans la boite de dialogue d'édition du shot (soit `au moment de sa création`, soit en faisant un `clic droit sur le shot puis "Edit Shot Settings..."`).<br>
+![Edit Shot](../assets/screen_qanda/01.png){:width="400px"}
+
+2. Cliquez sur le petit bouton `"+"` en bas de la fenêtre pour créer des metadonnées personnalisées (Meta Data).<br>
+![Add Custom Metadata](../assets/screen_qanda/02.png){:width="400 px"}
+
+3. Dans le champ `de gauche`, entrez `preroll` pour le préroll, ou `postroll` pour le postroll, puis rentrez les valeurs souhaitées dans le `champ de droite` (en frames).<br>
+![Set Preroll and Postroll](../assets/screen_qanda/03.png){:width="400 px"}
+
+4. Cliquez sur `Save` pour enregistrer les modifications.<br>
+![Save Changes](../assets/screen_qanda/04.png){:width="400 px"}
+
+----
+
 ## :material-hexagon-multiple-outline: Qu'est ce qu'un variant en USD ?
 
 Un **variant** en USD est un mécanisme permettant de stocker plusieurs versions ou options d’un même élément dans un seul fichier. Cela permet, par exemple, de définir différentes variantes de couleur, de niveau de détail (LOD), ou de configuration pour un asset sans dupliquer toute la géométrie.
