@@ -38,8 +38,8 @@ Pour lancer l'installeur, il vous faut suivre les étapes suivantes :
 L'installeur est très simple d'utilisation, il vous suffit de suivre les étapes suivantes :
 
 1. Sur la première page, vous avez deux choix : 
-    - Installer les outils
-    - Créer un nouveau projet
+    - [Installer les outils](#installer-les-outils)
+    - [Créer un nouveau projet](#creer-un-nouveau-projet)
 
     Choisissez l'option que vous souhaitez en cliquant sur le bouton correspondant.
 
@@ -52,7 +52,7 @@ L'installateur ne vas pas chercher les fichiers sur internet. Il vas juste copie
 
 Voici les étapes à suivre :
 
-1. Cliquez sur le bouton "`Installer les outils`" de la première page
+1. Cliquez sur le bouton "`Installer les outils`" de la première page.<br>
 
 ------
 
@@ -60,4 +60,22 @@ Voici les étapes à suivre :
 
 Avec cette option, l'installeur va créer un nouveau projet en copiant les fichiers nécessaires depuis le repository. Voici les étapes à suivre :
 
-1. Cliquez sur le bouton "`Créer un nouveau projet`" de la première page
+1. Cliquez sur le bouton "`Create a new project`" de la première page.<br>
+![image](../assets/screen_outils_installer/01.png){width=500px}
+2. Choisissez un nom pour votre projet, ainsi qu'un emplacement sur votre ordinateur. Puis cliquez sur le bouton "`Next`".<br>
+![image](../assets/screen_outils_installer/02.png){width=500px}
+3. Choisissez les options de votre projet. Pour l'instant, il n'y en a pas. Peut-être dans le futur. Cliquez sur le bouton "`Commit`".<br>
+![image](../assets/screen_outils_installer/03.png){width=500px}
+4. Attendez que l'installeur termine la création de votre projet. Le code est telement optimisé que le temps de chargement ne devrait même pas être visible 😎.
+    
+    A la fin de l'installation, vous devriez voir a la fin du texte "`SUCCESS`" en vert.
+    
+    Cliquez sur le bouton "`Next`"
+    <br>
+![image](../assets/screen_outils_installer/04.png){width=500px}
+
+5. Le projet est actuellement créé. Vous pouvez cliquer sur le bouton "`Open the project in explorer`" pour ouvrir le dossier de votre projet dans l'explorateur de fichiers.
+    
+    Cliquez ensuite sur le bouton "`Finish`" pour fermer l'installeur.
+    <br>
+![image](../assets/screen_outils_installer/05.png){width=500px}
