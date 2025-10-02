@@ -18,8 +18,9 @@ Il permet de :
 Pour lancer l'installeur, il vous faut suivre les étapes suivantes :
 
 1. Ouvrez ce repository github du projet sur votre navigateur : 
-[lien du repo github](https://github.com/ThomasEscalle/Pipeline_USD_2025-2026_src)
-2. Cliquez sur le bouton vert "`Code`", puis cliquez sur "`Download ZIP`". Cela téléchargera un fichier ZIP contenant tous les fichiers du repository.
+[lien du repo github](https://github.com/ThomasEscalle/Pipeline_USD_2025-2026_src/releases)
+2. Sélectionner la dernière version, puis dans la partie "`Asset`" cliquez  sur le fichier zip pour le télécharger.
+
 3. Extrayez le contenu du fichier ZIP dans un dossier de votre choix sur votre ordinateur
 4. Ouvrez le dossier extrait, puis ouvrez le dossier `installer`, puis le dossier `bin`
 5. Double-cliquez sur le fichier `installer.exe` pour lancer l'installeur. Vous arriverez sur une fenêtre comme celle-ci :
@@ -53,6 +54,15 @@ L'installateur ne vas pas chercher les fichiers sur internet. Il vas juste copie
 Voici les étapes à suivre :
 
 1. Cliquez sur le bouton "`Installer les outils`" de la première page.<br>
+
+------
+
+## :material-tools: Mise à jour des outils
+
+2. Fermez Prism en cliquant sur exit<br>
+![image](../assets/screen_outils_prism_installer/05.png){width=310px}
+![image](../assets/screen_outils_prism_installer/06.png){width=250px}
+3. Relancer l'installer comme lors de la [première installation](#comment-lancer-linstalleur)
 
 ------
 

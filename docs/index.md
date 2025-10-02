@@ -5,7 +5,6 @@ icon: material/home-outline
 
 # :material-home-outline: Accueil 
 
-
 ## Qu'est ce que le projet **Badger Pipeline** ?
 
 Le but de ce projet est de créer un pipeline de production pour les films de 4eme année de l'ESMA Montpellier 2026. Ce pipeline sera basé sur le format USD (Universal Scene Description). Il utilisera principalement Houdini et Maya.
