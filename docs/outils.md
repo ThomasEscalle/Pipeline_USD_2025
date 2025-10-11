@@ -32,4 +32,5 @@ Voici la liste des outils développés à disposition :
 
 ## :material-pool-thermometer: Autre
 
+-   [:material-link:{ .lg .middle } **Asset Resolver**](./asset_resolver)
 -   [:material-download:{ .lg .middle } **Installer**](./installer)
