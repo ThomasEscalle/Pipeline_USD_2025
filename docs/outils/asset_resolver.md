@@ -106,7 +106,7 @@ D:/Projects/Uptight/03_Production/01_Assets/Chars/Vinnie/Export/USD_Asset/asset.
 
 ---
 
-## Structure des URIs
+## 📋 Structure des URIs
 
 Ce système utilise des URIs avec le schéma `bp://` suivant cette structure :
 
@@ -125,7 +125,7 @@ bp://<project>?<parameters>
 
 ---
 
-## Paramètres de requête
+## ⚙️ Paramètres de requête
 
 ### Paramètres généraux
 
@@ -150,7 +150,7 @@ bp://<project>?<parameters>
 
 ---
 
-## Types d'assets supportés
+## 📦 Types d'assets supportés
 
 ### Assets
 
@@ -171,7 +171,7 @@ bp://<project>?<parameters>
 
 ---
 
-## Configuration
+## ⚙️ Configuration
 
 La configuration des projets se fait via le fichier `projects.json`. Celui ci n'est chargé qu'une seule fois au démarrage du resolver (démarrage de Maya, Houdini, USDView...). Pour les gens présents a l'esma montpellier, ce fichier sera situé dans Minerva, dont accecible via le réseau par tous les postes.
 
@@ -192,7 +192,7 @@ La configuration des projets se fait via le fichier `projects.json`. Celui ci n'
 
 ---
 
-## Exemples d'URIs
+## 📝 Exemples d'URIs
 
 ### Assets de base
 
@@ -231,6 +231,33 @@ bp://MyProject?t=s&s=sq010&sh=sh020&p=USD_Layout
 
 ---
 
+## 🔧 Comment est-il installé ?
+
+Pour l'instant, le resolver n'est compilé que pour Maya et Houdini, et uniquement sous Windows.
+
+Les binaires seront déposés sur Minerva afin que chaque poste puisse y accéder.
+
+Ensuite, l’installeur configurera les variables d’environnement nécessaires pour que Maya et Houdini puissent le détecter, via la mise à jour de maya.env et houdini.env.
+
+Les variables d’environnement nécessaires sont :
+
+``` 
+USD_ASSET_RESOLVER
+PATH
+PXR_PLUGINPATH_NAME
+PYTHONPATH
+```
+
+---
+
+## 🚀 Comment est t'il lancé sur la Farm ?
+
+Lors des rendus sur la farm avec Deadline, il faudra s'assurer que les variables d'environnement nécessaires au resolver soient correctement définies dans le Job et pointent vers Minerva.
+
+Étant donné que le rendu se fait depuis Houdini, celui-ci aura ainsi accès au resolver.
+
+---
+
 ## ⚙️ Comment fonctionne ce resolver ?
 
 Le **USD Asset Resolver** agit en plusieurs étapes :
@@ -243,7 +270,7 @@ Le **USD Asset Resolver** agit en plusieurs étapes :
 
 ---
 
-## Notes techniques
+## 📊 Notes techniques
 
 - **Performance** : Le système met en cache les résolutions pour éviter les accès disque répétés
 - **Flexibilité** : Support de multiples aliases pour faciliter l'utilisation
@@ -252,9 +279,6 @@ Le **USD Asset Resolver** agit en plusieurs étapes :
 
 !!! tip "Conseil"
     Utilisez toujours `version=latest` en production pour récupérer automatiquement la dernière version approuvée d'un asset.
-
-!!! warning "Attention"
-    Assurez-vous que la structure de dossiers respecte la convention attendue par le resolver pour un fonctionnement optimal.
 
 !!! info "Information"
     Le resolver peut rechercher des assets avec une recherche insensible à la casse jusqu'à 3 niveaux de profondeur dans l'arborescence.
