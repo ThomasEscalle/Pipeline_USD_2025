@@ -1,8 +1,11 @@
+---
+icon: material/link
+---
+
 # USD Asset Resolver
 
 ## 🌐 Qu'est-ce qu'un *Asset Resolver* USD ?
 
-![Wtf is this](https://media1.tenor.com/m/D7r0lk_-r_sAAAAd/what-the-hell-is-this-shit-matthew-paquette.gif){width=200px}
 
 
 Dans le système **USD**, un *Asset Resolver* est un composant responsable de **traduire un identifiant logique (URI)** vers un **chemin de fichier concret** dans le système de fichiers ou sur un serveur distant.  
@@ -15,6 +18,8 @@ flowchart LR
     B --> C["Chemin absolu : <br>D:/Projects/.../asset.usda"]
 ```
 
+![Wtf is this](https://media1.tenor.com/m/D7r0lk_-r_sAAAAd/what-the-hell-is-this-shit-matthew-paquette.gif){width=200px}
+
 ### 💡 Exemple d’utilisation dans Houdini :
 
 Dans un Sublayer ou un Reference, au lieu d’un chemin absolu classique, tu peux directement écrire :
@@ -23,7 +28,12 @@ Dans un Sublayer ou un Reference, au lieu d’un chemin absolu classique, tu peu
 bp://Uptight?type=chars&name=Vinnie&product=ModL_Publish&version=latest
 ```
 
-USD appellera automatiquement ton Asset Resolver pour trouver le bon fichier.
+USD appellera automatiquement ton Asset Resolver pour trouver le bon fichier, et l'afficher.
+
+```
+D:/Projects/Uptight/03_Production/01_Assets/Chars/Vinnie/Export/ModL_Publish/v0015/ModL_Publish_v0015.usd
+```
+
 
 ---
 
@@ -254,5 +264,5 @@ Le **USD Asset Resolver** agit en plusieurs étapes :
 
 ## ✅ Conclusion
 
-Le **USD Asset Resolver** offre un moyen puissant, extensible et cohérent pour gérer les ressources USD dans un pipeline complexe.  
+Le **USD Asset Resolver** offre un moyen puissant, extensible et cohérent pour gérer les ressources USD dans notre pipeline.  
 Il permet de découpler la structure logique des assets de leur emplacement physique tout en restant compatible avec les outils USD natifs.
