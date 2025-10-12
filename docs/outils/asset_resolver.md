@@ -141,6 +141,8 @@ bp://<project>?<parameters>
 |-----------|--------|-------------|-------------|---------|
 | `seq` | `s`, `sequence`, `seqs` | Nom de la séquence | ✅ Oui | `seq=sq010` |
 | `shot` | `sh`, `sht`, `shots`, `shts` | Nom du shot | ❌ Non | `shot=sh010` |
+| `name` | `n` | Nom du shot | ❌ Non | `name=seq01/shot010` |
+
 
 ### Paramètres pour les Assets
 
@@ -212,6 +214,9 @@ bp://MyProject?type=enviros&name=forest_temple&product=ModL_Publish&version=late
 ```bash
 # Shot spécifique avec produit
 bp://MyProject?type=shot&seq=sq010&shot=sh020&product=Anim_Char_Vinnie_Publish
+
+# Avec chemin relatif (slash autorisé) dans le nom
+bp://MyProject?type=shot&name=seq01/shot010
 
 # Shot master d'une séquence
 bp://MyProject?type=shot&seq=sq010&product=Anim_Char_Vinnie_Publish
