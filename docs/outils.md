@@ -34,3 +34,4 @@ Voici la liste des outils développés à disposition :
 
 -   [:material-link:{ .lg .middle } **Asset Resolver**](./asset_resolver)
 -   [:material-download:{ .lg .middle } **Installer**](./installer)
+-   [:material-settings:{ .lg .middle } **Sync Media**](./sync_media)

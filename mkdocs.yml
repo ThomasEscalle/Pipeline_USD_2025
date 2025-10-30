@@ -37,6 +37,7 @@ nav:
     - Houdini "Asset Browser" Window: outils/houdini_window_bp_asset_browser.md
     - Asset Resolver USD: outils/asset_resolver.md
     - Installer: outils/installer.md
+    - Sync Media Plugin: outils/sync_media.md
   - Bugs Connus: bugs_connus.md
   - Q & A: qanda.md
   - Références: references.md
