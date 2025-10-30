@@ -6,7 +6,9 @@ icon: material/draw
 
 ## Vue d'ensemble
 
-Le plugin **Sync Media** pour Prism permet de synchroniser automatiquement les médias (images et vidéos) entre les shots d'un projet et des destinations spécifiées (pour le montage par exemple).
+Le plugin **Sync Media** pour Prism permet de copier coller automatiquement les médias (images et vidéos) associés aux shots d'un projet vers des emplacements définis par l'utilisateur, en fonction de règles configurables.
+
+Il nous sert à envoyer la dernière version d'un playblast, d'un rendu 2D ou 3D vers des dossiers spécifiques pour qu'ils se mettent a jour automatiquement dans notre logiciels de montage ou de compositing.
 
 ## Fonctionnalités principales
 
@@ -81,12 +83,12 @@ Les templates de destination supportent les variables suivantes :
 
 | Variable | Description | Exemple |
 |----------|-------------|---------|
-| `@seq@` | Nom de la séquence | `SEQ01` |
-| `@sht@` | Nom du shot | `010` |
-| `@shot_display_name@` | Nom d'affichage complet | `SEQ01_010` |
+| `@seq@` | Nom de la séquence | `seq010` |
+| `@sht@` | Nom du shot | `sht010` |
+| `@shot_display_name@` | Nom d'affichage complet | `seq010_sht010` |
 | `@frames@` | Numéro de frame (images uniquement) | `0001` |
 | `@ext@` | Extension du fichier | `jpg` |
-| `@pipeline@` | Chemin du pipeline | `/project/pipeline` |
+| `@pipeline@` | Chemin du pipeline (celui se project dans prism) | `//minerva/3D5/Uptight..` |
 
 ### Exemple de configuration complète
 
@@ -94,17 +96,17 @@ Les templates de destination supportent les variables suivantes :
 {
     "rules": [
         {
-            "source_media": ["beauty", "final"],
+            "source_media": ["Anim", "Publish"],
             "destination": {
-                "images_destination": "@pipeline@/export/images/@seq@/@sht@/@shot_display_name@_@frames@.@ext@",
-                "videos_destination": "@pipeline@/export/videos/@seq@/@shot_display_name@.@ext@"
+                "images_destination": "@pipeline@/04_Editing/images/@seq@/@sht@/@shot_display_name@_@frames@.@ext@",
+                "videos_destination": "@pipeline@/04_Editing/videos/@seq@/@shot_display_name@.@ext@"
             }
         },
         {
             "source_media": "comp",
             "destination": {
-                "images_destination": "@pipeline@/comp/@seq@_@sht@_comp_@frames@.@ext@",
-                "videos_destination": "@pipeline@/comp/@seq@_@sht@_comp.@ext@"
+                "images_destination": "@pipeline@/04_Editing/@seq@_@sht@_comp_@frames@.@ext@",
+                "videos_destination": "@pipeline@/04_Editing/@seq@_@sht@_comp.@ext@"
             }
         }
     ]
