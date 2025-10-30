@@ -88,7 +88,7 @@ Les templates de destination supportent les variables suivantes :
 | `@shot_display_name@` | Nom d'affichage complet | `seq010_sht010` |
 | `@frames@` | Numéro de frame (images uniquement) | `0001` |
 | `@ext@` | Extension du fichier | `jpg` |
-| `@pipeline@` | Chemin du pipeline (celui se project dans prism) | `//minerva/3D5/Uptight..` |
+| `@pipeline@` | Chemin du pipeline (celui setproject dans prism) | `//minerva/3D5/Uptight..` |
 
 ### Exemple de configuration complète
 
